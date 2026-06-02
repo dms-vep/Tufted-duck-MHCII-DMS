@@ -1,0 +1,46 @@
+LOCUS       PacBio_amplicon                    1796 bp ds-DNA     linear   SYN 16-JAN-2025
+DEFINITION  MHCII GGA assembly 
+ACCESSION   PacBio_amplicon
+VERSION     .
+KEYWORDS    .
+SOURCE      PacBio_amplicon
+  ORGANISM  virus
+FEATURES             Location/Qualifiers
+     termini5         1..47
+     variant_tag5     28
+     variant_tag3     1751
+     gene             111..1544
+     barcode          1709..1724
+     termini3         1725..1796
+ORIGIN
+        1 ctagccattc agaggcagcc gagccacstc gctcaacgcg tgccaccatg gccgccggca
+       61 gaggcgtgcc tctggtgctc ctggccctgc tggccctgca gggcagcggc gctgtgaaag
+      121 tgggacatgt gctgatgcag accgagttct accagaggga cgagacacac aaccgcgagg
+      181 gcggccagtt catgttcgac ttcgacggcg acgagatctt ccacgtggac ctgcagaagt
+      241 ctgagacaat ctggcggctg cccattttca ccaccttcac cagcttcgag gcccagggcg
+      301 ccctgcagaa cattgccgtg gataagcaga acatggaaat catgatgaaa agatctaata
+      361 gaagccaggg aaccatcgcc cctcctgagg tgacagtttt cagcgaggac cccgtggaac
+      421 tgggagatcc taacatcctg atctgctacg ttgataagtt ctggcctagc gtcatcacca
+      481 tcacatggat gaaaaacggc caggaggtga ccgaaggagt gtccgaaacc gtgttctaca
+      541 gacaggccga caacggcttc tataagttta gctacttacc attcatcccc accagaggcg
+      601 actactacga ttgcagagtg gaacactggg gcctgcctga acccctgatg acgcactggg
+      661 agccgcaagt gccactgccc gtgtctgaga gcaccgaaac tctggtctgc gccctgggcc
+      721 ttgccgtggg catcgtgggg atcgtggttg gcaccatcct gatcatcaag gccatgaaga
+      781 tgaacaacgc cagaaaccag agaggcctgc tgggaagcgg cgagggccgg ggcagcctgc
+      841 tgacctgcgg cgatgtggag gaaaaccccg gccctatggg ctctggcaga atcctgggtg
+      901 ctggcgccgt gctggtcgcc ctggtcgtgc tcggcgcccg tctggccggc ggagaagaaa
+      961 caaagggctt tttccaggag atggtggctt ttgagtgcca ctacctgaac ggaaccgagc
+     1021 aggtgcggta cctggtgaag tacatccaca accggcagca ggacgtgcac tacgacagcg
+     1081 acgtgggtca ttatgtggcc gatacagagc tgggcaaacc tgatgccgac tactggaaca
+     1141 gccaacctga ggaaaaagaa cgggtgagag ccgagatcga cacagtgtgc agacacaatt
+     1201 acttcatggc cagcttcacc gtggacagac gggtcgagcc caaggtgcgg gtgtccccta
+     1261 tgcagagctc ctccctgcca cagacagata gactggcttg ttacgtgacc ggcttttatc
+     1321 ctgctgatat ccaggtgaag tggttcaaga acggccagga ggaaaccaag cacgtggtga
+     1381 gcaccgacgt gatccaaaat ggcgattgga cctaccaggt gctggtgatg ctggaaagca
+     1441 cacctcaaca cggcgacacc tacgagtgtc acgtgcagca cgcctctctc aagagcccta
+     1501 tcacctacga gtgggtgctg cctgccgacg ccgctagagg caagatgctg acaggcgttg
+     1561 gcggcctggt gctgggactg atctttctgg cactgggact gttcctgtac gtgcggagaa
+     1621 agggcgctag cctgcacaga ttgcagggct cctgataggc gcgcctagtt ggatcacact
+     1681 ctttccctac acgacgctct tccgatctnn nnnnnnnnnn nnnntctaga ttcgagagag
+     1741 aaatgttcct sgtggagttc cgcgttacat aacttacggc tcgtactggt tgagcg
+//

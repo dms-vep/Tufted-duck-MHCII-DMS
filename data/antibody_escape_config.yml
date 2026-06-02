@@ -1,0 +1,241 @@
+# escape, receptor affinity from soluble receptor neutralization, etc.
+# Note that in the configuration for individual selections, "antibody" is used
+# as a synonym for any treatment (receptor, heat, etc), and "no-antibody" is
+# used as a synonym for the untreated conditions.
+
+# --------------------------------------------------------------------------------------
+# Define the selections
+# --------------------------------------------------------------------------------------
+
+# `assays` is keyed by assay (eg, "antibody_escape", "receptor_affinity", etc). Values are:
+#    - `title`: title used for selection in docs
+#    - `selections`: name of key used to define all selections for this assay
+#    - `averages`: name of key used to define averages across selections for this assay.
+#       Leave out this key if not taking averages.
+#    - `prob_escape_scale`: the scale used for the y-axis when plotting prob escape as
+#      a function of concentration. Typically symlog if all values close to zero, linear
+#      otherwise. Should be in the form of keyword arguments to `altair.Scale`.
+#    - `scale_stat`: scale the statistic being estimated for mutation effects by this
+#      number. Typically is 1 (no scaling) unless you want negative values to indicate a
+#      favorable effect (as for soluble receptor selections), in which case use -1.
+#    - `stat_name`: name assigned to statistic, eg, "escape" or "receptor affinity".
+
+assays:
+  HA_binding:
+    title: HA binding
+    selections: HA_binding_selections
+    averages: avg_HA_binding
+    prob_escape_scale:
+      type: linear
+    scale_stat: -1
+    stat_name: HA binding
+
+# --------------------------------------------------------------------------------------
+# Configuration for each antibody or soluble receptor selection experiment.
+# --------------------------------------------------------------------------------------
+
+# `antibody_selections` is keyed by name of each selection experiment, which includes a
+# no-antibody control samples and one or more antibody samples. These should typically
+# be from the same library and run on same date. Selection experiments are recommended
+# to be named as <Library>-<date as YYMMDD>-<description (eg, antibody)>-<replicate>.
+# Each selection experiment should in turn provide the following keys:
+#  - `neut_standard_name`: name of neutralization standard in `neut_standard_barcodes`
+#  - `no_antibody_sample`: name of the no-antibody sample
+#  - `antibody_samples`: a dict keyed by sample name with values of:
+#    * `concentration`: the concentration of the antibody
+#    * `use_in_fit`: whether to use this sample in the `polyclonal` fit
+#  - `prob_escape_filters`: dict giving filters of prob_escape values to use for fitting
+#  - `polyclonal_params`: dict giving parameters for `polyclonal` model fitting.
+#  - `escape_plot_kwargs`: dict giving parameters for `polyclonal` escape plot
+#  - `plot_hide_stats`: dict giving data frames with stats for slider to hide mutations
+# The `use_in_fit` option exists because you may decide that some samples are outside
+# the preferred neutralization range to include in the fit, so if `use_in_fit: false`
+# then functional scores are computed and plotted but it is not included in the fit.
+
+# default prob_escape filters
+prob_escape_filters_default: &prob_escape_filters_default
+  # error if sample used in fit doesn't have >= this many neut standard counts and
+  # >= this fraction of all counts from neut standard.
+  min_neut_standard_count: 1000
+  min_neut_standard_frac: 0.0001
+  # Only retain for fitting variants with at least this many counts and this fraction
+  # of total counts in the no-antibody sample **OR** the indicated counts and fraction
+  # of total counts in the antibody sample.
+  min_no_antibody_count: 20  # make bigger for real experiments, say 20
+  min_no_antibody_frac: 0.000001  # make smaller for large libraries, say ~0.1 / (library size)
+  min_antibody_count: 100  # make bigger for real experiments, say 100
+  min_antibody_frac: 0.0001  # make smaller for large libraries, say ~10 / (library size)
+  # For averaging and plotting the mean probability (fraction) escape across variants, use
+  # these cutoffs:
+  max_aa_subs: 3  # group variants with >= this many substitutions
+  clip_uncensored_prob_escape: 5  # clip uncensored prob escape values at this max
+
+# default parameters for `polyclonal` model fitting
+polyclonal_params_default: &polyclonal_params_default
+  n_epitopes: 1  # fit this many epitopes, also fit all numbers less than this and plot
+  spatial_distances: results/spatial_distances/spatial_distances.csv  # CSV with residue distances for spatial regularization, or null
+  fit_kwargs:  # keyword arguments to `Polyclonal.fit`
+    reg_escape_weight: 0.1
+    reg_spread_weight: 0.25
+    reg_activity_weight: 1.0
+    logfreq: 200
+
+# keyword arguments to `Polyclonal.mut_escape_plot`
+escape_plot_kwargs_default: &escape_plot_kwargs_default
+  addtl_slider_stats:
+    times_seen: 2
+  addtl_tooltip_stats:
+    - sequential_site
+  heatmap_max_at_least: 2
+  heatmap_min_at_least: -2
+  init_floor_at_zero: false
+  init_site_statistic: sum
+  site_zoom_bar_color_col: region  # supplied in `site_numbering_map`
+
+
+# Specify any statistics (usually functional effects) for which you want to enable
+# sliders that hide data. Keyed by statistic name, then next dict gives:
+#   - `csv`: CSV file with the data, should have columns "site" and "mutant"
+#   - `csv_col`: column in the CSV with the data
+#   - `init`: initial value of slider
+plot_hide_stats_default: &plot_hide_stats_default
+  functional effect:
+    csv: results/func_effects/averages/293_M3_tat_H5_RT_func_effects.csv
+    csv_col: effect
+    init: -3
+    min_filters:
+      times_seen: 2
+  HA binding:
+    csv: results/HA_binding/averages/MHCII_mut_effect.csv
+    csv_col: HA binding_mean
+    init: -3
+    min_filters:
+      times_seen: 2
+
+# --------------------------------------------------------------------------------------
+# Note that for soluble receptor affinity selections, you define selection experiments
+# exactly analogously to `antibody_selections` in `receptor_selections`, using `antibody`
+# as a synonym for the soluble receptor.
+
+# Define some defaults slightly different than from antibody selections
+
+# default parameters for `polyclonal` model fitting for receptor affinity
+HA_binding_polyclonal_params_default: &HA_binding_polyclonal_params_default
+  n_epitopes: 1
+  spatial_distances: null
+  fit_kwargs:  # keyword arguments to `Polyclonal.fit`
+    reg_escape_weight: 0.1
+    reg_spread_weight: 0
+    reg_activity_weight: 1.0
+    logfreq: 200
+
+# default stats to hide cells on plot of receptor affinity
+HA_binding_plot_hide_stats_default: &HA_binding_plot_hide_stats_default
+  functional effect:
+    csv: results/func_effects/averages/293_M3_tat_H5_RT_func_effects.csv
+    csv_col: effect
+    init: -2
+    min_filters:
+      times_seen: 2
+
+# Define the receptor selections
+HA_binding_selections:
+  Lib1-260529-HA_binding:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *HA_binding_polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *HA_binding_plot_hide_stats_default
+    no_antibody_sample: Lib1-260529-noMab
+    antibody_samples:
+      Lib1-260529-H5_8.0:
+        concentration: 8
+        use_in_fit: true
+      Lib1-260529-H5_16.12:
+        concentration: 16.12
+        use_in_fit: true
+      Lib1-260529-H5_32.2:
+        concentration: 32.2
+        use_in_fit: false
+      Lib1-260529-H5_80.58:
+        concentration: 80.58
+        use_in_fit: true
+      Lib1-260529-H5_201.45:
+        concentration: 201.45
+        use_in_fit: false
+  Lib2-260529-HA_binding:
+    neut_standard_name: neut_standard
+    prob_escape_filters: *prob_escape_filters_default
+    polyclonal_params: *HA_binding_polyclonal_params_default
+    escape_plot_kwargs: *escape_plot_kwargs_default
+    plot_hide_stats: *HA_binding_plot_hide_stats_default
+    no_antibody_sample: Lib2-260529-noMab
+    antibody_samples:
+      Lib2-260529-H5_8.0:
+        concentration: 8
+        use_in_fit: true
+      Lib2-260529-H5_16.12:
+        concentration: 16.12
+        use_in_fit: false
+      Lib2-260529-H5_32.2:
+        concentration: 32.2
+        use_in_fit: true
+      Lib2-260529-H5_80.58:
+        concentration: 80.58
+        use_in_fit: true
+      Lib2-260529-H5_201.45:
+        concentration: 201.45
+        use_in_fit: true
+
+
+
+# --------------------------------------------------------------------------------------
+# Configuration for averaging/plotting selections for same antibody or soluble receptor
+# --------------------------------------------------------------------------------------
+
+# Average/plot escape values from different selections with the same antibody/serum using
+# `avg_antibody_escape`. Each key is the name of an antibody/serum that has the following values:
+#   - `selections`: list of antibody selections for which we average escape
+#   - `icXX`: for the plot showing fold-change in ICXX (eg, IC90), what is XX (eg, 90)
+#   - `escape_plot_kwargs`: keyword arguments for `PolyclonalAverage.mut_escape_plot`
+#   - `plot_hide_stats`: dict giving data frames with stats for slider to hide mutations
+
+# For soluble receptor experiments used to measure receptor affinity, do exactly the same
+# except under the key `avg_receptor_affinity` rather than `avg_antibody_escape`.
+
+# Define defaults for each antibody/serum, used via the merge (<<) operator
+avg_antibody_escape_default: &avg_antibody_escape_default
+  icXX: 50
+  escape_plot_kwargs:
+    <<: *escape_plot_kwargs_default
+    avg_type: median
+    addtl_slider_stats:
+      times_seen: 2
+      escape_std: 1
+    addtl_slider_stats_as_max: [escape_std]
+    per_model_tooltip: true
+  plot_hide_stats: *plot_hide_stats_default
+
+# Define the antibodies/sera to average
+avg_antibody_escape:
+
+# Define the receptor affinity experiments to average
+avg_HA_binding_default: &avg_HA_binding_default
+  <<: *avg_antibody_escape_default
+  escape_plot_kwargs:
+    <<: *escape_plot_kwargs_default
+    avg_type: median
+    addtl_slider_stats:
+      times_seen: 2
+      escape_std: 2.6
+    addtl_slider_stats_as_max: [escape_std]
+    per_model_tooltip: true
+  icXX: 50  # IC50
+
+avg_HA_binding:
+  H5_HA_binding:
+    <<: *avg_HA_binding_default
+    plot_hide_stats: *HA_binding_plot_hide_stats_default
+    selections:
+      - Lib1-260529-HA_binding
+      - Lib2-260529-HA_binding

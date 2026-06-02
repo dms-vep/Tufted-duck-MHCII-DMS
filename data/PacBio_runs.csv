@@ -1,0 +1,3 @@
+﻿library,run,fastq
+Lib1,Lib1-260520,/fh/fast/bloom_j/computational_notebooks/bdadonai/2026/Tufted-duck-MHCII-DMS/data/pacbio_VSVG/tufted_duck_MHCII_lib1_sorted.fastq.gz
+Lib2,Lib2-260520,/fh/fast/bloom_j/computational_notebooks/bdadonai/2026/Tufted-duck-MHCII-DMS/data/pacbio_VSVG/tufted_duck_MHCII_lib2_sorted.fastq.gz

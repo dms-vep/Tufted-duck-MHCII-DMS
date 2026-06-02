@@ -1,0 +1,17 @@
+﻿sample,library,date,fastq_R1
+Lib1-260529-H5_8.0,Lib1,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib1_H5_1_S1_L001_R1_001.fastq.gz
+Lib1-260529-H5_16.12,Lib1,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib1_H5_2_S2_L001_R1_001.fastq.gz
+Lib1-260529-H5_32.2,Lib1,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib1_H5_3_S3_L001_R1_001.fastq.gz
+Lib1-260529-H5_80.58,Lib1,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib1_H5_4_S4_L001_R1_001.fastq.gz
+Lib1-260529-H5_201.45,Lib1,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib1_H5_5_S5_L001_R1_001.fastq.gz
+Lib1-260529-noMab,Lib1,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib1_noMab_S11_L001_R1_001.fastq.gz
+Lib1-260529-VSVG_RT,Lib1,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib1_VSVG_RT_S15_L001_R1_001.fastq.gz
+Lib1-260529-VSVG,Lib1,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib1_VSVG_S13_L001_R1_001.fastq.gz
+Lib2-260529-H5_8.0,Lib2,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib2_H5_1_S6_L001_R1_001.fastq.gz
+Lib2-260529-H5_16.12,Lib2,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib2_H5_2_S7_L001_R1_001.fastq.gz
+Lib2-260529-H5_32.2,Lib2,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib2_H5_3_S8_L001_R1_001.fastq.gz
+Lib2-260529-H5_80.58,Lib2,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib2_H5_4_S9_L001_R1_001.fastq.gz
+Lib2-260529-H5_201.45,Lib2,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib2_H5_5_S10_L001_R1_001.fastq.gz
+Lib2-260529-noMab,Lib2,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib2_noMab_S12_L001_R1_001.fastq.gz
+Lib2-260529-VSVG_RT,Lib2,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib2_VSVG_RT_S16_L001_R1_001.fastq.gz
+Lib2-260529-VSVG,Lib2,20260529,/fh/fast/bloom_j/SR/ngs/illumina/bdadonai/20260529_LH00740_0221_B23LCKMLT3/Unaligned/MHCII_library_illumina_270526/Lib2_VSVG_S14_L001_R1_001.fastq.gz
