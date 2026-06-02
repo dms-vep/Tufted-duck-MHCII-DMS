@@ -2,7 +2,7 @@
 
 # ----------------------------------------------------------------------------
 # Configuration for VitePress homepage
-# https://github.com/dms-vep/dms-vep-pipeline-3/tree/main/homepage
+# https://github.com/dms-vep/dms-vep-pipeline-3/tree/master/homepage
 # ----------------------------------------------------------------------------
 build_vitepress_homepage: false
 
@@ -22,7 +22,7 @@ pipeline_path: dms-vep-pipeline-3
 # Name of your main GitHub repo, eg https://github.com/<my_organization>/<my_repo>
 github_repo_url: https://github.com/dms-vep/Tufted-duck-MHCII-DMS
 # GitHub blob path to where results files are stored. Typically "{repo}/blob/{branch}"
-github_blob_url: https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/main
+github_blob_url: https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master
 # Some descriptions and metadata about the analysis.
 description: Deep mutational scanning of tufted duck MHCII 
 year: 2026
