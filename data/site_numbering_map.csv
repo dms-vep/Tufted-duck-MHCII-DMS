@@ -1,479 +1,479 @@
-sequential_site,reference_site,structure_site,region
-1,22,-1_a,alpha chain
-2,23,1_a,alpha chain
-3,24,2_a,alpha chain
-4,25,3_a,alpha chain
-5,26,4_a,alpha chain
-6,27,5_a,alpha chain
-7,28,6_a,alpha chain
-8,29,7_a,alpha chain
-9,30,8_a,alpha chain
-10,31,9_a,alpha chain
-11,32,10_a,alpha chain
-12,33,11_a,alpha chain
-13,34,12_a,alpha chain
-14,35,13_a,alpha chain
-15,36,14_a,alpha chain
-16,37,15_a,alpha chain
-17,38,16_a,alpha chain
-18,39,17_a,alpha chain
-19,40,18_a,alpha chain
-20,41,19_a,alpha chain
-21,42,20_a,alpha chain
-22,43,21_a,alpha chain
-23,44,22_a,alpha chain
-24,45,23_a,alpha chain
-25,46,24_a,alpha chain
-26,47,25_a,alpha chain
-27,48,26_a,alpha chain
-28,49,27_a,alpha chain
-29,50,28_a,alpha chain
-30,51,29_a,alpha chain
-31,52,30_a,alpha chain
-32,53,31_a,alpha chain
-33,54,32_a,alpha chain
-34,55,33_a,alpha chain
-35,56,34_a,alpha chain
-36,57,35_a,alpha chain
-37,58,36_a,alpha chain
-38,59,37_a,alpha chain
-39,60,38_a,alpha chain
-40,61,39_a,alpha chain
-41,62,40_a,alpha chain
-42,63,41_a,alpha chain
-43,64,42_a,alpha chain
-44,65,43_a,alpha chain
-45,66,44_a,alpha chain
-46,67,45_a,alpha chain
-47,68,46_a,alpha chain
-48,69,47_a,alpha chain
-49,70,48_a,alpha chain
-50,71,49_a,alpha chain
-51,72,50_a,alpha chain
-52,73,51_a,alpha chain
-53,74,52_a,alpha chain
-54,75,53_a,alpha chain
-55,76,54_a,alpha chain
-56,77,55_a,alpha chain
-57,78,56_a,alpha chain
-58,79,57_a,alpha chain
-59,80,58_a,alpha chain
-60,81,59_a,alpha chain
-61,82,60_a,alpha chain
-62,83,61_a,alpha chain
-63,84,62_a,alpha chain
-64,85,63_a,alpha chain
-65,86,64_a,alpha chain
-66,87,65_a,alpha chain
-67,88,66_a,alpha chain
-68,89,67_a,alpha chain
-69,90,68_a,alpha chain
-70,91,69_a,alpha chain
-71,92,70_a,alpha chain
-72,93,71_a,alpha chain
-73,94,72_a,alpha chain
-74,95,73_a,alpha chain
-75,96,74_a,alpha chain
-76,97,75_a,alpha chain
-77,98,76_a,alpha chain
-78,99,77_a,alpha chain
-79,100,78_a,alpha chain
-80,101,79_a,alpha chain
-81,102,80_a,alpha chain
-82,103,81_a,alpha chain
-83,104,82_a,alpha chain
-84,105,83_a,alpha chain
-85,106,84_a,alpha chain
-86,107,85_a,alpha chain
-87,108,86_a,alpha chain
-88,109,87_a,alpha chain
-89,110,88_a,alpha chain
-90,111,89_a,alpha chain
-91,112,90_a,alpha chain
-92,113,91_a,alpha chain
-93,114,92_a,alpha chain
-94,115,93_a,alpha chain
-95,116,94_a,alpha chain
-96,117,95_a,alpha chain
-97,118,96_a,alpha chain
-98,119,97_a,alpha chain
-99,120,98_a,alpha chain
-100,121,99_a,alpha chain
-101,122,100_a,alpha chain
-102,123,101_a,alpha chain
-103,124,102_a,alpha chain
-104,125,103_a,alpha chain
-105,126,104_a,alpha chain
-106,127,105_a,alpha chain
-107,128,106_a,alpha chain
-108,129,107_a,alpha chain
-109,130,108_a,alpha chain
-110,131,109_a,alpha chain
-111,132,110_a,alpha chain
-112,133,111_a,alpha chain
-113,134,112_a,alpha chain
-114,135,113_a,alpha chain
-115,136,114_a,alpha chain
-116,137,115_a,alpha chain
-117,138,116_a,alpha chain
-118,139,117_a,alpha chain
-119,140,118_a,alpha chain
-120,141,119_a,alpha chain
-121,142,120_a,alpha chain
-122,143,121_a,alpha chain
-123,144,122_a,alpha chain
-124,145,123_a,alpha chain
-125,146,124_a,alpha chain
-126,147,125_a,alpha chain
-127,148,126_a,alpha chain
-128,149,127_a,alpha chain
-129,150,128_a,alpha chain
-130,151,129_a,alpha chain
-131,152,130_a,alpha chain
-132,153,131_a,alpha chain
-133,154,132_a,alpha chain
-134,155,133_a,alpha chain
-135,156,134_a,alpha chain
-136,157,135_a,alpha chain
-137,158,136_a,alpha chain
-138,159,137_a,alpha chain
-139,160,138_a,alpha chain
-140,161,139_a,alpha chain
-141,162,140_a,alpha chain
-142,163,141_a,alpha chain
-143,164,142_a,alpha chain
-144,165,143_a,alpha chain
-145,166,144_a,alpha chain
-146,167,145_a,alpha chain
-147,168,146_a,alpha chain
-148,169,147_a,alpha chain
-149,170,148_a,alpha chain
-150,171,149_a,alpha chain
-151,172,150_a,alpha chain
-152,173,151_a,alpha chain
-153,174,152_a,alpha chain
-154,175,153_a,alpha chain
-155,176,154_a,alpha chain
-156,177,155_a,alpha chain
-157,178,156_a,alpha chain
-158,179,157_a,alpha chain
-159,180,158_a,alpha chain
-160,181,159_a,alpha chain
-161,182,160_a,alpha chain
-162,183,161_a,alpha chain
-163,184,162_a,alpha chain
-164,185,163_a,alpha chain
-165,186,164_a,alpha chain
-166,187,165_a,alpha chain
-167,188,166_a,alpha chain
-168,189,167_a,alpha chain
-169,190,168_a,alpha chain
-170,191,169_a,alpha chain
-171,192,170_a,alpha chain
-172,193,171_a,alpha chain
-173,194,172_a,alpha chain
-174,195,173_a,alpha chain
-175,196,174_a,alpha chain
-176,197,175_a,alpha chain
-177,198,176_a,alpha chain
-178,199,177_a,alpha chain
-179,200,178_a,alpha chain
-180,201,179_a,alpha chain
-181,202,180_a,alpha chain
-182,203,181_a,alpha chain
-183,204,182_a,alpha chain
-184,205,183_a,alpha chain
-185,206,184_a,alpha chain
-186,207,185_a,alpha chain
-187,208,186_a,alpha chain
-188,209,187_a,alpha chain
-189,210,188_a,alpha chain
-190,211,189_a,alpha chain
-191,212,190_a,alpha chain
-192,213,191_a,alpha chain
-193,214,192_a,alpha chain
-194,215,193_a,alpha chain
-195,216,194_a,alpha chain
-196,217,195_a,alpha chain
-197,218,NA,alpha chain TM
-198,219,NA,alpha chain TM
-199,220,NA,alpha chain TM
-200,221,NA,alpha chain TM
-201,222,NA,alpha chain TM
-202,223,NA,alpha chain TM
-203,224,NA,alpha chain TM
-204,225,NA,alpha chain TM
-205,226,NA,alpha chain TM
-206,227,NA,alpha chain TM
-207,228,NA,alpha chain TM
-208,229,NA,alpha chain TM
-209,230,NA,alpha chain TM
-210,231,NA,alpha chain TM
-211,232,NA,alpha chain TM
-212,233,NA,alpha chain TM
-213,234,NA,alpha chain TM
-214,235,NA,alpha chain TM
-215,236,NA,alpha chain TM
-216,237,NA,alpha chain TM
-217,238,NA,alpha chain TM
-218,239,NA,alpha chain TM
-219,240,NA,alpha chain TM
-220,241,NA,alpha chain CT
-221,242,NA,alpha chain CT
-222,243,NA,alpha chain CT
-223,244,NA,alpha chain CT
-224,245,NA,alpha chain CT
-225,246,NA,alpha chain CT
-226,247,NA,alpha chain CT
-227,248,NA,alpha chain CT
-228,249,NA,alpha chain CT
-229,250,NA,alpha chain CT
-230,251,NA,alpha chain CT
-231,252,NA,alpha chain CT
-232,253,NA,alpha chain CT
-233,254,NA,alpha chain CT
-234,255,NA,alpha chain CT
-235,256,NA,linker
-236,257,NA,linker
-237,258,NA,linker
-238,259,NA,T2A
-239,260,NA,T2A
-240,261,NA,T2A
-241,262,NA,T2A
-242,263,NA,T2A
-243,264,NA,T2A
-244,265,NA,T2A
-245,266,NA,T2A
-246,267,NA,T2A
-247,268,NA,T2A
-248,269,NA,T2A
-249,270,NA,T2A
-250,271,NA,T2A
-251,272,NA,T2A
-252,273,NA,T2A
-253,274,NA,T2A
-254,275,NA,T2A
-255,276,NA,T2A
-256,277,NA,beta chain SP
-257,278,NA,beta chain SP
-258,279,NA,beta chain SP
-259,280,NA,beta chain SP
-260,281,NA,beta chain SP
-261,282,NA,beta chain SP
-262,283,NA,beta chain SP
-263,284,NA,beta chain SP
-264,285,NA,beta chain SP
-265,286,NA,beta chain SP
-266,287,NA,beta chain SP
-267,288,NA,beta chain SP
-268,289,NA,beta chain SP
-269,290,NA,beta chain SP
-270,291,NA,beta chain SP
-271,292,NA,beta chain SP
-272,293,NA,beta chain SP
-273,294,NA,beta chain SP
-274,295,NA,beta chain SP
-275,296,NA,beta chain SP
-276,297,NA,beta chain SP
-277,298,NA,beta chain SP
-278,299,NA,beta chain SP
-279,300,NA,beta chain SP
-280,301,NA,beta chain SP
-281,302,2_b,beta chain
-282,303,3_b,beta chain
-283,304,4_b,beta chain
-284,305,5_b,beta chain
-285,306,6_b,beta chain
-286,307,7_b,beta chain
-287,308,8_b,beta chain
-288,309,9_b,beta chain
-289,310,10_b,beta chain
-290,311,11_b,beta chain
-291,312,12_b,beta chain
-292,313,13_b,beta chain
-293,314,14_b,beta chain
-294,315,15_b,beta chain
-295,316,16_b,beta chain
-296,317,17_b,beta chain
-297,318,18_b,beta chain
-298,319,19_b,beta chain
-299,320,20_b,beta chain
-300,321,21_b,beta chain
-301,322,22_b,beta chain
-302,323,23_b,beta chain
-303,324,24_b,beta chain
-304,325,25_b,beta chain
-305,326,26_b,beta chain
-306,327,27_b,beta chain
-307,328,28_b,beta chain
-308,329,29_b,beta chain
-309,330,30_b,beta chain
-310,331,31_b,beta chain
-311,332,32_b,beta chain
-312,333,33_b,beta chain
-313,334,34_b,beta chain
-314,335,35_b,beta chain
-315,336,36_b,beta chain
-316,337,37_b,beta chain
-317,338,38_b,beta chain
-318,339,39_b,beta chain
-319,340,40_b,beta chain
-320,341,41_b,beta chain
-321,342,42_b,beta chain
-322,343,43_b,beta chain
-323,344,44_b,beta chain
-324,345,45_b,beta chain
-325,346,46_b,beta chain
-326,347,47_b,beta chain
-327,348,48_b,beta chain
-328,349,49_b,beta chain
-329,350,50_b,beta chain
-330,351,51_b,beta chain
-331,352,52_b,beta chain
-332,353,53_b,beta chain
-333,354,54_b,beta chain
-334,355,55_b,beta chain
-335,356,56_b,beta chain
-336,357,57_b,beta chain
-337,358,58_b,beta chain
-338,359,59_b,beta chain
-339,360,60_b,beta chain
-340,361,61_b,beta chain
-341,362,62_b,beta chain
-342,363,63_b,beta chain
-343,364,64_b,beta chain
-344,365,65_b,beta chain
-345,366,66_b,beta chain
-346,367,67_b,beta chain
-347,368,68_b,beta chain
-348,369,69_b,beta chain
-349,370,70_b,beta chain
-350,371,71_b,beta chain
-351,372,72_b,beta chain
-352,373,73_b,beta chain
-353,374,74_b,beta chain
-354,375,75_b,beta chain
-355,376,76_b,beta chain
-356,377,77_b,beta chain
-357,378,78_b,beta chain
-358,379,79_b,beta chain
-359,380,80_b,beta chain
-360,381,81_b,beta chain
-361,382,82_b,beta chain
-362,383,83_b,beta chain
-363,384,84_b,beta chain
-364,385,85_b,beta chain
-365,386,86_b,beta chain
-366,387,87_b,beta chain
-367,388,88_b,beta chain
-368,389,89_b,beta chain
-369,390,90_b,beta chain
-370,391,91_b,beta chain
-371,392,92_b,beta chain
-372,393,93_b,beta chain
-373,394,94_b,beta chain
-374,395,95_b,beta chain
-375,396,96_b,beta chain
-376,397,97_b,beta chain
-377,398,98_b,beta chain
-378,399,99_b,beta chain
-379,400,100_b,beta chain
-380,401,101_b,beta chain
-381,402,102_b,beta chain
-382,403,103_b,beta chain
-383,404,104_b,beta chain
-384,405,105_b,beta chain
-385,406,106_b,beta chain
-386,407,107_b,beta chain
-387,408,108_b,beta chain
-388,409,109_b,beta chain
-389,410,110_b,beta chain
-390,411,111_b,beta chain
-391,412,112_b,beta chain
-392,413,113_b,beta chain
-393,414,114_b,beta chain
-394,415,115_b,beta chain
-395,416,116_b,beta chain
-396,417,117_b,beta chain
-397,418,118_b,beta chain
-398,419,119_b,beta chain
-399,420,120_b,beta chain
-400,421,121_b,beta chain
-401,422,122_b,beta chain
-402,423,123_b,beta chain
-403,424,124_b,beta chain
-404,425,125_b,beta chain
-405,426,126_b,beta chain
-406,427,127_b,beta chain
-407,428,128_b,beta chain
-408,429,129_b,beta chain
-409,430,130_b,beta chain
-410,431,131_b,beta chain
-411,432,132_b,beta chain
-412,433,133_b,beta chain
-413,434,134_b,beta chain
-414,435,135_b,beta chain
-415,436,136_b,beta chain
-416,437,137_b,beta chain
-417,438,138_b,beta chain
-418,439,139_b,beta chain
-419,440,140_b,beta chain
-420,441,141_b,beta chain
-421,442,142_b,beta chain
-422,443,143_b,beta chain
-423,444,144_b,beta chain
-424,445,145_b,beta chain
-425,446,146_b,beta chain
-426,447,147_b,beta chain
-427,448,148_b,beta chain
-428,449,149_b,beta chain
-429,450,150_b,beta chain
-430,451,151_b,beta chain
-431,452,152_b,beta chain
-432,453,153_b,beta chain
-433,454,154_b,beta chain
-434,455,155_b,beta chain
-435,456,156_b,beta chain
-436,457,157_b,beta chain
-437,458,158_b,beta chain
-438,459,159_b,beta chain
-439,460,160_b,beta chain
-440,461,161_b,beta chain
-441,462,162_b,beta chain
-442,463,163_b,beta chain
-443,464,164_b,beta chain
-444,465,165_b,beta chain
-445,466,166_b,beta chain
-446,467,167_b,beta chain
-447,468,168_b,beta chain
-448,469,169_b,beta chain
-449,470,170_b,beta chain
-450,471,171_b,beta chain
-451,472,172_b,beta chain
-452,473,173_b,beta chain
-453,474,174_b,beta chain
-454,475,175_b,beta chain
-455,476,176_b,beta chain
-456,477,177_b,beta chain
-457,478,178_b,beta chain
-458,479,179_b,beta chain
-459,480,180_b,beta chain
-460,481,181_b,beta chain
-461,482,182_b,beta chain
-462,483,183_b,beta chain
-463,484,184_b,beta chain
-464,485,185_b,beta chain
-465,486,186_b,beta chain
-466,487,187_b,beta chain
-467,488,188_b,beta chain
-468,489,189_b,beta chain
-469,490,190_b,beta chain
-470,491,191_b,beta chain
-471,492,192_b,beta chain
-472,493,193_b,beta chain
-473,494,194_b,beta chain
-474,495,195_b,beta chain
-475,496,196_b,beta chain
-476,497,197_b,beta chain
-477,498,198_b,beta chain
-478,499,199_b,beta chain
+sequential_site,reference_site,structure_site,region,ORF_site
+1,-1(a),-1_a,alpha chain,22
+2,1(a),1_a,alpha chain,23
+3,2(a),2_a,alpha chain,24
+4,3(a),3_a,alpha chain,25
+5,4(a),4_a,alpha chain,26
+6,5(a),5_a,alpha chain,27
+7,6(a),6_a,alpha chain,28
+8,7(a),7_a,alpha chain,29
+9,8(a),8_a,alpha chain,30
+10,9(a),9_a,alpha chain,31
+11,10(a),10_a,alpha chain,32
+12,11(a),11_a,alpha chain,33
+13,12(a),12_a,alpha chain,34
+14,13(a),13_a,alpha chain,35
+15,14(a),14_a,alpha chain,36
+16,15(a),15_a,alpha chain,37
+17,16(a),16_a,alpha chain,38
+18,17(a),17_a,alpha chain,39
+19,18(a),18_a,alpha chain,40
+20,19(a),19_a,alpha chain,41
+21,20(a),20_a,alpha chain,42
+22,21(a),21_a,alpha chain,43
+23,22(a),22_a,alpha chain,44
+24,23(a),23_a,alpha chain,45
+25,24(a),24_a,alpha chain,46
+26,25(a),25_a,alpha chain,47
+27,26(a),26_a,alpha chain,48
+28,27(a),27_a,alpha chain,49
+29,28(a),28_a,alpha chain,50
+30,29(a),29_a,alpha chain,51
+31,30(a),30_a,alpha chain,52
+32,31(a),31_a,alpha chain,53
+33,32(a),32_a,alpha chain,54
+34,33(a),33_a,alpha chain,55
+35,34(a),34_a,alpha chain,56
+36,35(a),35_a,alpha chain,57
+37,36(a),36_a,alpha chain,58
+38,37(a),37_a,alpha chain,59
+39,38(a),38_a,alpha chain,60
+40,39(a),39_a,alpha chain,61
+41,40(a),40_a,alpha chain,62
+42,41(a),41_a,alpha chain,63
+43,42(a),42_a,alpha chain,64
+44,43(a),43_a,alpha chain,65
+45,44(a),44_a,alpha chain,66
+46,45(a),45_a,alpha chain,67
+47,46(a),46_a,alpha chain,68
+48,47(a),47_a,alpha chain,69
+49,48(a),48_a,alpha chain,70
+50,49(a),49_a,alpha chain,71
+51,50(a),50_a,alpha chain,72
+52,51(a),51_a,alpha chain,73
+53,52(a),52_a,alpha chain,74
+54,53(a),53_a,alpha chain,75
+55,54(a),54_a,alpha chain,76
+56,55(a),55_a,alpha chain,77
+57,56(a),56_a,alpha chain,78
+58,57(a),57_a,alpha chain,79
+59,58(a),58_a,alpha chain,80
+60,59(a),59_a,alpha chain,81
+61,60(a),60_a,alpha chain,82
+62,61(a),61_a,alpha chain,83
+63,62(a),62_a,alpha chain,84
+64,63(a),63_a,alpha chain,85
+65,64(a),64_a,alpha chain,86
+66,65(a),65_a,alpha chain,87
+67,66(a),66_a,alpha chain,88
+68,67(a),67_a,alpha chain,89
+69,68(a),68_a,alpha chain,90
+70,69(a),69_a,alpha chain,91
+71,70(a),70_a,alpha chain,92
+72,71(a),71_a,alpha chain,93
+73,72(a),72_a,alpha chain,94
+74,73(a),73_a,alpha chain,95
+75,74(a),74_a,alpha chain,96
+76,75(a),75_a,alpha chain,97
+77,76(a),76_a,alpha chain,98
+78,77(a),77_a,alpha chain,99
+79,78(a),78_a,alpha chain,100
+80,79(a),79_a,alpha chain,101
+81,80(a),80_a,alpha chain,102
+82,81(a),81_a,alpha chain,103
+83,82(a),82_a,alpha chain,104
+84,83(a),83_a,alpha chain,105
+85,84(a),84_a,alpha chain,106
+86,85(a),85_a,alpha chain,107
+87,86(a),86_a,alpha chain,108
+88,87(a),87_a,alpha chain,109
+89,88(a),88_a,alpha chain,110
+90,89(a),89_a,alpha chain,111
+91,90(a),90_a,alpha chain,112
+92,91(a),91_a,alpha chain,113
+93,92(a),92_a,alpha chain,114
+94,93(a),93_a,alpha chain,115
+95,94(a),94_a,alpha chain,116
+96,95(a),95_a,alpha chain,117
+97,96(a),96_a,alpha chain,118
+98,97(a),97_a,alpha chain,119
+99,98(a),98_a,alpha chain,120
+100,99(a),99_a,alpha chain,121
+101,100(a),100_a,alpha chain,122
+102,101(a),101_a,alpha chain,123
+103,102(a),102_a,alpha chain,124
+104,103(a),103_a,alpha chain,125
+105,104(a),104_a,alpha chain,126
+106,105(a),105_a,alpha chain,127
+107,106(a),106_a,alpha chain,128
+108,107(a),107_a,alpha chain,129
+109,108(a),108_a,alpha chain,130
+110,109(a),109_a,alpha chain,131
+111,110(a),110_a,alpha chain,132
+112,111(a),111_a,alpha chain,133
+113,112(a),112_a,alpha chain,134
+114,113(a),113_a,alpha chain,135
+115,114(a),114_a,alpha chain,136
+116,115(a),115_a,alpha chain,137
+117,116(a),116_a,alpha chain,138
+118,117(a),117_a,alpha chain,139
+119,118(a),118_a,alpha chain,140
+120,119(a),119_a,alpha chain,141
+121,120(a),120_a,alpha chain,142
+122,121(a),121_a,alpha chain,143
+123,122(a),122_a,alpha chain,144
+124,123(a),123_a,alpha chain,145
+125,124(a),124_a,alpha chain,146
+126,125(a),125_a,alpha chain,147
+127,126(a),126_a,alpha chain,148
+128,127(a),127_a,alpha chain,149
+129,128(a),128_a,alpha chain,150
+130,129(a),129_a,alpha chain,151
+131,130(a),130_a,alpha chain,152
+132,131(a),131_a,alpha chain,153
+133,132(a),132_a,alpha chain,154
+134,133(a),133_a,alpha chain,155
+135,134(a),134_a,alpha chain,156
+136,135(a),135_a,alpha chain,157
+137,136(a),136_a,alpha chain,158
+138,137(a),137_a,alpha chain,159
+139,138(a),138_a,alpha chain,160
+140,139(a),139_a,alpha chain,161
+141,140(a),140_a,alpha chain,162
+142,141(a),141_a,alpha chain,163
+143,142(a),142_a,alpha chain,164
+144,143(a),143_a,alpha chain,165
+145,144(a),144_a,alpha chain,166
+146,145(a),145_a,alpha chain,167
+147,146(a),146_a,alpha chain,168
+148,147(a),147_a,alpha chain,169
+149,148(a),148_a,alpha chain,170
+150,149(a),149_a,alpha chain,171
+151,150(a),150_a,alpha chain,172
+152,151(a),151_a,alpha chain,173
+153,152(a),152_a,alpha chain,174
+154,153(a),153_a,alpha chain,175
+155,154(a),154_a,alpha chain,176
+156,155(a),155_a,alpha chain,177
+157,156(a),156_a,alpha chain,178
+158,157(a),157_a,alpha chain,179
+159,158(a),158_a,alpha chain,180
+160,159(a),159_a,alpha chain,181
+161,160(a),160_a,alpha chain,182
+162,161(a),161_a,alpha chain,183
+163,162(a),162_a,alpha chain,184
+164,163(a),163_a,alpha chain,185
+165,164(a),164_a,alpha chain,186
+166,165(a),165_a,alpha chain,187
+167,166(a),166_a,alpha chain,188
+168,167(a),167_a,alpha chain,189
+169,168(a),168_a,alpha chain,190
+170,169(a),169_a,alpha chain,191
+171,170(a),170_a,alpha chain,192
+172,171(a),171_a,alpha chain,193
+173,172(a),172_a,alpha chain,194
+174,173(a),173_a,alpha chain,195
+175,174(a),174_a,alpha chain,196
+176,175(a),175_a,alpha chain,197
+177,176(a),176_a,alpha chain,198
+178,177(a),177_a,alpha chain,199
+179,178(a),178_a,alpha chain,200
+180,179(a),179_a,alpha chain,201
+181,180(a),180_a,alpha chain,202
+182,181(a),181_a,alpha chain,203
+183,182(a),182_a,alpha chain,204
+184,183(a),183_a,alpha chain,205
+185,184(a),184_a,alpha chain,206
+186,185(a),185_a,alpha chain,207
+187,186(a),186_a,alpha chain,208
+188,187(a),187_a,alpha chain,209
+189,188(a),188_a,alpha chain,210
+190,189(a),189_a,alpha chain,211
+191,190(a),190_a,alpha chain,212
+192,191(a),191_a,alpha chain,213
+193,192(a),192_a,alpha chain,214
+194,193(a),193_a,alpha chain,215
+195,194(a),194_a,alpha chain,216
+196,195(a),195_a,alpha chain,217
+197,196(a),NA,alpha chain TM,218
+198,197(a),NA,alpha chain TM,219
+199,198(a),NA,alpha chain TM,220
+200,199(a),NA,alpha chain TM,221
+201,200(a),NA,alpha chain TM,222
+202,201(a),NA,alpha chain TM,223
+203,202(a),NA,alpha chain TM,224
+204,203(a),NA,alpha chain TM,225
+205,204(a),NA,alpha chain TM,226
+206,205(a),NA,alpha chain TM,227
+207,206(a),NA,alpha chain TM,228
+208,207(a),NA,alpha chain TM,229
+209,208(a),NA,alpha chain TM,230
+210,209(a),NA,alpha chain TM,231
+211,210(a),NA,alpha chain TM,232
+212,211(a),NA,alpha chain TM,233
+213,212(a),NA,alpha chain TM,234
+214,213(a),NA,alpha chain TM,235
+215,214(a),NA,alpha chain TM,236
+216,215(a),NA,alpha chain TM,237
+217,216(a),NA,alpha chain TM,238
+218,217(a),NA,alpha chain TM,239
+219,218(a),NA,alpha chain TM,240
+220,219(a),NA,alpha chain CT,241
+221,220(a),NA,alpha chain CT,242
+222,221(a),NA,alpha chain CT,243
+223,222(a),NA,alpha chain CT,244
+224,223(a),NA,alpha chain CT,245
+225,224(a),NA,alpha chain CT,246
+226,225(a),NA,alpha chain CT,247
+227,226(a),NA,alpha chain CT,248
+228,227(a),NA,alpha chain CT,249
+229,228(a),NA,alpha chain CT,250
+230,229(a),NA,alpha chain CT,251
+231,230(a),NA,alpha chain CT,252
+232,231(a),NA,alpha chain CT,253
+233,232(a),NA,alpha chain CT,254
+234,233(a),NA,alpha chain CT,255
+235,1(T2A),NA,linker,256
+236,2(T2A),NA,linker,257
+237,3(T2A),NA,linker,258
+238,4(T2A),NA,T2A,259
+239,5(T2A),NA,T2A,260
+240,6(T2A),NA,T2A,261
+241,7(T2A),NA,T2A,262
+242,8(T2A),NA,T2A,263
+243,9(T2A),NA,T2A,264
+244,10(T2A),NA,T2A,265
+245,11(T2A),NA,T2A,266
+246,12(T2A),NA,T2A,267
+247,13(T2A),NA,T2A,268
+248,14(T2A),NA,T2A,269
+249,15(T2A),NA,T2A,270
+250,16(T2A),NA,T2A,271
+251,17(T2A),NA,T2A,272
+252,18(T2A),NA,T2A,273
+253,19(T2A),NA,T2A,274
+254,20(T2A),NA,T2A,275
+255,21(T2A),NA,T2A,276
+256,-24(b),NA,beta chain SP,277
+257,-23(b),NA,beta chain SP,278
+258,-22(b),NA,beta chain SP,279
+259,-21(b),NA,beta chain SP,280
+260,-20(b),NA,beta chain SP,281
+261,-19(b),NA,beta chain SP,282
+262,-18(b),NA,beta chain SP,283
+263,-17(b),NA,beta chain SP,284
+264,-16(b),NA,beta chain SP,285
+265,-15(b),NA,beta chain SP,286
+266,-14(b),NA,beta chain SP,287
+267,-13(b),NA,beta chain SP,288
+268,-12(b),NA,beta chain SP,289
+269,-11(b),NA,beta chain SP,290
+270,-10(b),NA,beta chain SP,291
+271,-9(b),NA,beta chain SP,292
+272,-8(b),NA,beta chain SP,293
+273,-7(b),NA,beta chain SP,294
+274,-6(b),NA,beta chain SP,295
+275,-5(b),NA,beta chain SP,296
+276,-4(b),NA,beta chain SP,297
+277,-3(b),NA,beta chain SP,298
+278,-2(b),NA,beta chain SP,299
+279,-1(b),NA,beta chain SP,300
+280,1(b),NA,beta chain SP,301
+281,2(b),2_b,beta chain,302
+282,3(b),3_b,beta chain,303
+283,4(b),4_b,beta chain,304
+284,5(b),5_b,beta chain,305
+285,6(b),6_b,beta chain,306
+286,7(b),7_b,beta chain,307
+287,8(b),8_b,beta chain,308
+288,9(b),9_b,beta chain,309
+289,10(b),10_b,beta chain,310
+290,11(b),11_b,beta chain,311
+291,12(b),12_b,beta chain,312
+292,13(b),13_b,beta chain,313
+293,14(b),14_b,beta chain,314
+294,15(b),15_b,beta chain,315
+295,16(b),16_b,beta chain,316
+296,17(b),17_b,beta chain,317
+297,18(b),18_b,beta chain,318
+298,19(b),19_b,beta chain,319
+299,20(b),20_b,beta chain,320
+300,21(b),21_b,beta chain,321
+301,22(b),22_b,beta chain,322
+302,23(b),23_b,beta chain,323
+303,24(b),24_b,beta chain,324
+304,25(b),25_b,beta chain,325
+305,26(b),26_b,beta chain,326
+306,27(b),27_b,beta chain,327
+307,28(b),28_b,beta chain,328
+308,29(b),29_b,beta chain,329
+309,30(b),30_b,beta chain,330
+310,31(b),31_b,beta chain,331
+311,32(b),32_b,beta chain,332
+312,33(b),33_b,beta chain,333
+313,34(b),34_b,beta chain,334
+314,35(b),35_b,beta chain,335
+315,36(b),36_b,beta chain,336
+316,37(b),37_b,beta chain,337
+317,38(b),38_b,beta chain,338
+318,39(b),39_b,beta chain,339
+319,40(b),40_b,beta chain,340
+320,41(b),41_b,beta chain,341
+321,42(b),42_b,beta chain,342
+322,43(b),43_b,beta chain,343
+323,44(b),44_b,beta chain,344
+324,45(b),45_b,beta chain,345
+325,46(b),46_b,beta chain,346
+326,47(b),47_b,beta chain,347
+327,48(b),48_b,beta chain,348
+328,49(b),49_b,beta chain,349
+329,50(b),50_b,beta chain,350
+330,51(b),51_b,beta chain,351
+331,52(b),52_b,beta chain,352
+332,53(b),53_b,beta chain,353
+333,54(b),54_b,beta chain,354
+334,55(b),55_b,beta chain,355
+335,56(b),56_b,beta chain,356
+336,57(b),57_b,beta chain,357
+337,58(b),58_b,beta chain,358
+338,59(b),59_b,beta chain,359
+339,60(b),60_b,beta chain,360
+340,61(b),61_b,beta chain,361
+341,62(b),62_b,beta chain,362
+342,63(b),63_b,beta chain,363
+343,64(b),64_b,beta chain,364
+344,65(b),65_b,beta chain,365
+345,66(b),66_b,beta chain,366
+346,67(b),67_b,beta chain,367
+347,68(b),68_b,beta chain,368
+348,69(b),69_b,beta chain,369
+349,70(b),70_b,beta chain,370
+350,71(b),71_b,beta chain,371
+351,72(b),72_b,beta chain,372
+352,73(b),73_b,beta chain,373
+353,74(b),74_b,beta chain,374
+354,75(b),75_b,beta chain,375
+355,76(b),76_b,beta chain,376
+356,77(b),77_b,beta chain,377
+357,78(b),78_b,beta chain,378
+358,79(b),79_b,beta chain,379
+359,80(b),80_b,beta chain,380
+360,81(b),81_b,beta chain,381
+361,82(b),82_b,beta chain,382
+362,83(b),83_b,beta chain,383
+363,84(b),84_b,beta chain,384
+364,85(b),85_b,beta chain,385
+365,86(b),86_b,beta chain,386
+366,87(b),87_b,beta chain,387
+367,88(b),88_b,beta chain,388
+368,89(b),89_b,beta chain,389
+369,90(b),90_b,beta chain,390
+370,91(b),91_b,beta chain,391
+371,92(b),92_b,beta chain,392
+372,93(b),93_b,beta chain,393
+373,94(b),94_b,beta chain,394
+374,95(b),95_b,beta chain,395
+375,96(b),96_b,beta chain,396
+376,97(b),97_b,beta chain,397
+377,98(b),98_b,beta chain,398
+378,99(b),99_b,beta chain,399
+379,100(b),100_b,beta chain,400
+380,101(b),101_b,beta chain,401
+381,102(b),102_b,beta chain,402
+382,103(b),103_b,beta chain,403
+383,104(b),104_b,beta chain,404
+384,105(b),105_b,beta chain,405
+385,106(b),106_b,beta chain,406
+386,107(b),107_b,beta chain,407
+387,108(b),108_b,beta chain,408
+388,109(b),109_b,beta chain,409
+389,110(b),110_b,beta chain,410
+390,111(b),111_b,beta chain,411
+391,112(b),112_b,beta chain,412
+392,113(b),113_b,beta chain,413
+393,114(b),114_b,beta chain,414
+394,115(b),115_b,beta chain,415
+395,116(b),116_b,beta chain,416
+396,117(b),117_b,beta chain,417
+397,118(b),118_b,beta chain,418
+398,119(b),119_b,beta chain,419
+399,120(b),120_b,beta chain,420
+400,121(b),121_b,beta chain,421
+401,122(b),122_b,beta chain,422
+402,123(b),123_b,beta chain,423
+403,124(b),124_b,beta chain,424
+404,125(b),125_b,beta chain,425
+405,126(b),126_b,beta chain,426
+406,127(b),127_b,beta chain,427
+407,128(b),128_b,beta chain,428
+408,129(b),129_b,beta chain,429
+409,130(b),130_b,beta chain,430
+410,131(b),131_b,beta chain,431
+411,132(b),132_b,beta chain,432
+412,133(b),133_b,beta chain,433
+413,134(b),134_b,beta chain,434
+414,135(b),135_b,beta chain,435
+415,136(b),136_b,beta chain,436
+416,137(b),137_b,beta chain,437
+417,138(b),138_b,beta chain,438
+418,139(b),139_b,beta chain,439
+419,140(b),140_b,beta chain,440
+420,141(b),141_b,beta chain,441
+421,142(b),142_b,beta chain,442
+422,143(b),143_b,beta chain,443
+423,144(b),144_b,beta chain,444
+424,145(b),145_b,beta chain,445
+425,146(b),146_b,beta chain,446
+426,147(b),147_b,beta chain,447
+427,148(b),148_b,beta chain,448
+428,149(b),149_b,beta chain,449
+429,150(b),150_b,beta chain,450
+430,151(b),151_b,beta chain,451
+431,152(b),152_b,beta chain,452
+432,153(b),153_b,beta chain,453
+433,154(b),154_b,beta chain,454
+434,155(b),155_b,beta chain,455
+435,156(b),156_b,beta chain,456
+436,157(b),157_b,beta chain,457
+437,158(b),158_b,beta chain,458
+438,159(b),159_b,beta chain,459
+439,160(b),160_b,beta chain,460
+440,161(b),161_b,beta chain,461
+441,162(b),162_b,beta chain,462
+442,163(b),163_b,beta chain,463
+443,164(b),164_b,beta chain,464
+444,165(b),165_b,beta chain,465
+445,166(b),166_b,beta chain,466
+446,167(b),167_b,beta chain,467
+447,168(b),168_b,beta chain,468
+448,169(b),169_b,beta chain,469
+449,170(b),170_b,beta chain,470
+450,171(b),171_b,beta chain,471
+451,172(b),172_b,beta chain,472
+452,173(b),173_b,beta chain,473
+453,174(b),174_b,beta chain,474
+454,175(b),175_b,beta chain,475
+455,176(b),176_b,beta chain,476
+456,177(b),177_b,beta chain,477
+457,178(b),178_b,beta chain,478
+458,179(b),179_b,beta chain,479
+459,180(b),180_b,beta chain,480
+460,181(b),181_b,beta chain,481
+461,182(b),182_b,beta chain,482
+462,183(b),183_b,beta chain,483
+463,184(b),184_b,beta chain,484
+464,185(b),185_b,beta chain,485
+465,186(b),186_b,beta chain,486
+466,187(b),187_b,beta chain,487
+467,188(b),188_b,beta chain,488
+468,189(b),189_b,beta chain,489
+469,190(b),190_b,beta chain,490
+470,191(b),191_b,beta chain,491
+471,192(b),192_b,beta chain,492
+472,193(b),193_b,beta chain,493
+473,194(b),194_b,beta chain,494
+474,195(b),195_b,beta chain,495
+475,196(b),196_b,beta chain,496
+476,197(b),197_b,beta chain,497
+477,198(b),198_b,beta chain,498
+478,199(b),199_b,beta chain,499
