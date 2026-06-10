@@ -1,0 +1,8 @@
+# config for analysis
+fract_infect: data/fracinfect.csv
+
+# enter all the samples and stuff to ignore here
+neut_samples_ignore: False
+
+# the neutralization limit of detection is equal to the starting dilution
+NT50_LOD: 25

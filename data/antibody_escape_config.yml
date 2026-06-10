@@ -148,7 +148,7 @@ HA_binding_plot_hide_stats_default: &HA_binding_plot_hide_stats_default
   functional effect:
     csv: results/func_effects/averages/293_M3_tat_H5_RT_func_effects.csv
     csv_col: effect
-    init: -2
+    init: -3
     min_filters:
       times_seen: 2
 

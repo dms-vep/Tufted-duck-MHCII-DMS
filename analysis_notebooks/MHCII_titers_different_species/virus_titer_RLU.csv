@@ -1,0 +1,113 @@
+﻿replicate,virus,dilution,uL_virus,RLU_per_well,cells
+rep1,bald eagle,0.5,50,3410000,M3-Wigeon-H5
+rep1,bald eagle,0.25,25,1339000,M3-Wigeon-H5
+rep1,bald eagle,0.125,12.5,722000,M3-Wigeon-H5
+rep1,bald eagle,0.0625,6.25,310600,M3-Wigeon-H5
+rep1,bald eagle,0.03125,3.125,142600,M3-Wigeon-H5
+rep1,bald eagle,0.015625,1.5625,79980,M3-Wigeon-H5
+rep1,bald eagle,0.0078125,0.78125,36450,M3-Wigeon-H5
+rep1,bald eagle,0.00390625,0.390625,11140,M3-Wigeon-H5
+rep1,ferret,0.5,50,33520,M3-Wigeon-H5
+rep1,ferret,0.25,25,11360,M3-Wigeon-H5
+rep1,ferret,0.125,12.5,10600,M3-Wigeon-H5
+rep1,ferret,0.0625,6.25,4831,M3-Wigeon-H5
+rep1,ferret,0.03125,3.125,2731,M3-Wigeon-H5
+rep1,ferret,0.015625,1.5625,1147,M3-Wigeon-H5
+rep1,ferret,0.0078125,0.78125,95.3,M3-Wigeon-H5
+rep1,ferret,0.00390625,0.390625,0,M3-Wigeon-H5
+rep1,chicken,0.5,50,6925,M3-Wigeon-H5
+rep1,chicken,0.25,25,10900,M3-Wigeon-H5
+rep1,chicken,0.125,12.5,406.6,M3-Wigeon-H5
+rep1,chicken,0.0625,6.25,230,M3-Wigeon-H5
+rep1,chicken,0.03125,3.125,579.4,M3-Wigeon-H5
+rep1,chicken,0.015625,1.5625,49.31,M3-Wigeon-H5
+rep1,chicken,0.0078125,0.78125,18.83,M3-Wigeon-H5
+rep1,chicken,0.00390625,0.390625,56.05,M3-Wigeon-H5
+rep1,black swan,0.5,50,3171000,M3-Wigeon-H5
+rep1,black swan,0.25,25,1389000,M3-Wigeon-H5
+rep1,black swan,0.125,12.5,698200,M3-Wigeon-H5
+rep1,black swan,0.0625,6.25,281300,M3-Wigeon-H5
+rep1,black swan,0.03125,3.125,150900,M3-Wigeon-H5
+rep1,black swan,0.015625,1.5625,79010,M3-Wigeon-H5
+rep1,black swan,0.0078125,0.78125,34250,M3-Wigeon-H5
+rep1,black swan,0.00390625,0.390625,13090,M3-Wigeon-H5
+rep1,tufted duck,0.5,50,9937000,M3-Wigeon-H5
+rep1,tufted duck,0.25,25,4664000,M3-Wigeon-H5
+rep1,tufted duck,0.125,12.5,2065000,M3-Wigeon-H5
+rep1,tufted duck,0.0625,6.25,830100,M3-Wigeon-H5
+rep1,tufted duck,0.03125,3.125,435400,M3-Wigeon-H5
+rep1,tufted duck,0.015625,1.5625,213500,M3-Wigeon-H5
+rep1,tufted duck,0.0078125,0.78125,90350,M3-Wigeon-H5
+rep1,tufted duck,0.00390625,0.390625,44000,M3-Wigeon-H5
+rep1,mouse,0.5,50,98290,M3-Wigeon-H5
+rep1,mouse,0.25,25,24880,M3-Wigeon-H5
+rep1,mouse,0.125,12.5,7642,M3-Wigeon-H5
+rep1,mouse,0.0625,6.25,7675,M3-Wigeon-H5
+rep1,mouse,0.03125,3.125,4834,M3-Wigeon-H5
+rep1,mouse,0.015625,1.5625,1040,M3-Wigeon-H5
+rep1,mouse,0.0078125,0.78125,856.4,M3-Wigeon-H5
+rep1,mouse,0.00390625,0.390625,293.7,M3-Wigeon-H5
+rep1,bald eagle,0.5,50,5895,M3
+rep1,bald eagle,0.25,25,189.7,M3
+rep1,bald eagle,0.125,12.5,23.74,M3
+rep1,bald eagle,0.0625,6.25,15.23,M3
+rep1,bald eagle,0.03125,3.125,26.71,M3
+rep1,bald eagle,0.015625,1.5625,21.06,M3
+rep1,bald eagle,0.0078125,0.78125,14.86,M3
+rep1,bald eagle,0.00390625,0.390625,42.1,M3
+rep1,ferret,0.5,50,15820,M3
+rep1,ferret,0.25,25,455.4,M3
+rep1,ferret,0.125,12.5,201.2,M3
+rep1,ferret,0.0625,6.25,61.54,M3
+rep1,ferret,0.03125,3.125,79.38,M3
+rep1,ferret,0.015625,1.5625,0,M3
+rep1,ferret,0.0078125,0.78125,12.55,M3
+rep1,ferret,0.00390625,0.390625,33.03,M3
+rep1,chicken,0.5,50,4292,M3
+rep1,chicken,0.25,25,204.8,M3
+rep1,chicken,0.125,12.5,49.21,M3
+rep1,chicken,0.0625,6.25,85.15,M3
+rep1,chicken,0.03125,3.125,0,M3
+rep1,chicken,0.015625,1.5625,0,M3
+rep1,chicken,0.0078125,0.78125,-8.212,M3
+rep1,chicken,0.00390625,0.390625,42.47,M3
+rep1,black swan,0.5,50,12880,M3
+rep1,black swan,0.25,25,474.2,M3
+rep1,black swan,0.125,12.5,89.55,M3
+rep1,black swan,0.0625,6.25,113.5,M3
+rep1,black swan,0.03125,3.125,13.13,M3
+rep1,black swan,0.015625,1.5625,26.75,M3
+rep1,black swan,0.0078125,0.78125,3.806,M3
+rep1,black swan,0.00390625,0.390625,40.03,M3
+rep1,tufted duck,0.5,50,30780,M3
+rep1,tufted duck,0.25,25,871.7,M3
+rep1,tufted duck,0.125,12.5,258.4,M3
+rep1,tufted duck,0.0625,6.25,156,M3
+rep1,tufted duck,0.03125,3.125,73.4,M3
+rep1,tufted duck,0.015625,1.5625,47.73,M3
+rep1,tufted duck,0.0078125,0.78125,5.74,M3
+rep1,tufted duck,0.00390625,0.390625,0,M3
+rep1,mouse,0.5,50,60230,M3
+rep1,mouse,0.25,25,1364,M3
+rep1,mouse,0.125,12.5,333.6,M3
+rep1,mouse,0.0625,6.25,34.38,M3
+rep1,mouse,0.03125,3.125,132.1,M3
+rep1,mouse,0.015625,1.5625,0,M3
+rep1,mouse,0.0078125,0.78125,1.739,M3
+rep1,mouse,0.00390625,0.390625,54.27,M3
+rep1,human,0.5,50,8.487,M3
+rep1,human,0.25,25,19.5,M3
+rep1,human,0.125,12.5,14.87,M3
+rep1,human,0.0625,6.25,75.49,M3
+rep1,human,0.03125,3.125,35.44,M3
+rep1,human,0.015625,1.5625,0,M3
+rep1,human,0.0078125,0.78125,53.31,M3
+rep1,human,0.00390625,0.390625,34.27,M3
+rep1,human,0.5,50,1073000,M3-Wigeon-H5
+rep1,human,0.25,25,575700,M3-Wigeon-H5
+rep1,human,0.125,12.5,263300,M3-Wigeon-H5
+rep1,human,0.0625,6.25,140400,M3-Wigeon-H5
+rep1,human,0.03125,3.125,38590,M3-Wigeon-H5
+rep1,human,0.015625,1.5625,29420,M3-Wigeon-H5
+rep1,human,0.0078125,0.78125,13310,M3-Wigeon-H5
+rep1,human,0.00390625,0.390625,8616,M3-Wigeon-H5

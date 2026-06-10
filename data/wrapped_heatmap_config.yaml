@@ -1,0 +1,31 @@
+# Configuration to make wrapped (multi-row) heatmaps
+
+entry_in_293T_H5_HA_cells: &entry_tufted_duck_MHCII
+  data_csv: results/summaries/entry_all_cells.csv
+  title: entry in 293T-H5-HA cells
+  effect_col: entry in 292_M3_tat_H5 cells
+  data_query_str: {}  # ignore this site
+  sites_per_row: 113  # how many sites in each row
+  site_label_freq: 10  # label sites at this frequency
+  color_scheme: redblue  # vega color scheme
+  fixed_min: -6  # fix heatmap min at this
+  fixed_max: 1  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+
+tufted-duck_MHCII-binding: &tufted_duck_MHCII_binding
+  data_csv: results/summaries/HA_binding.csv
+  title: effect of mutations on binding to H5 HA
+  effect_col: HA binding escape
+  data_query_str: {}  # ignore this site
+  sites_per_row: 113  # how many sites in each row
+  site_label_freq: 10  # label sites at this frequency
+  color_scheme:
+    - "#AA2531"   # deep red
+    - "#f7f7f7"   # white
+    - "#134B85"   # deep blue
+  fixed_min: -2  # fix heatmap min at this
+  fixed_max: 2  # fix heatmap max at this
+  alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
+  dark_gray_muts:
+    col: entry in 292_M3_tat_H5 cells
+    cutoff: -3

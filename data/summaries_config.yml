@@ -46,4 +46,4 @@ HA_binding:
     entry in 292_M3_tat_H5 cells:  
       <<: *cell_entry_default
       csv: results/func_effects/averages/293_M3_tat_H5_RT_func_effects_singlemut.csv
-      init_min_value: -2  # initial min value in slider        
+      init_min_value: -3  # initial min value in slider        
