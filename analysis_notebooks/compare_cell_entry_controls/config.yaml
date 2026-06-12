@@ -1,0 +1,8 @@
+# single mutant cell entry effects
+VSVG_infection_single_mut: ../results/func_effects/averages/293_M3_tat_H5_infection_func_effects_singlemut.csv
+VSVG_RT_single_mut: ../results/func_effects/averages/293_M3_tat_H5_RT_func_effects_singlemut.csv
+
+
+# multi mutant cell entry effects
+VSVG_infection_multi_mut: ../results/func_effects/averages/293_M3_tat_H5_infection_func_effects.csv
+VSVG_RT_multi_mut: ../results/func_effects/averages/293_M3_tat_H5_RT_func_effects.csv
