@@ -1,8 +1,10 @@
-# Deep mutational scanning of MHC-II from a tufted duck
+# Deep mutational scanning of tufted duck MHC-II for mutation effects on H5 HA binding
 
-This repository has the code and data for analysis of tufted duck MHC-II deep mutational scanning. The tufted duck MHC-II sequence used comed from Genscript accessions XP_032061117.1 and XP_032061025.1 for alpha and beta chain, respectively.
+This repository has the code and data for analysis of tufted duck MHC-II deep mutational scanning, including how mutations affect binding to a H5 HA. The tufted duck MHC-II sequence used comed from Genscript accessions XP_032061117.1 and XP_032061025.1 for alpha and beta chain, respectively.
 
 For rendering of key results and an easy-to-interpret summary, see the documentation of the analysis at [https://dms-vep.org/Tufted-duck-MHCII-DMS/](https://dms-vep.org/Tufted-duck-MHCII-DMS/).
+
+The key results file with the processed measurements is [results/summaries/HA_binding.csv](results/summaries/HA_binding.csv).
 
 ## Organization of this repo
 
@@ -41,7 +43,12 @@ Input data for the pipeline are in [./data/](data).
 The results of running the pipeline are placed in [./results/](results).
 Only some of these results are tracked to save space (see [.gitignore](.gitignore)).
 
-The pipeline builds HTML documentation for the pipeline in [./docs/](docs), which can be rendered via GitHub Pages.
+The pipeline builds HTML documentation for the pipeline in `./results/docs` and `./results/publish_docs`.
+To visualize these docs via GitHub Pages, run:
+
+    dms-vep-pipeline-3/publish_docs_gh-pages.sh
+
+This pushes the docs to the *gh-pages* branch, we can be viewed on GitHub Pages at [https://dms-vep.org/Tufted-duck-MHCII-DMS/](https://dms-vep.org/Tufted-duck-MHCII-DMS/).
 
 ### Non-pipeline analyses
 Analysis notebooks and scripts that are not part of the main dms-vep pipeline are in [./analysis_notebooks/](analysis_notebooks) subfolder.
