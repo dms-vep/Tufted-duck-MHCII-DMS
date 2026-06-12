@@ -1,0 +1,14 @@
+# config for analysis
+Tufted_duck_MHCII_binding_sites: 31-39, 44-47, 59-66, 81-96
+
+MHCII_sequences: MHCII_sequences.fa
+
+Tufted_duck_MHCII_binding_data: HA_binding.csv
+
+compared_to: tufted duck
+
+exclude: mandarin duck
+
+# Measured virus titers to correlate against summed DMS escape.
+virus_titer_data: ../virus_titers.csv
+titer_cells: M3-Wigeon-H5
