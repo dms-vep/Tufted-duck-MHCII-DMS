@@ -82,6 +82,7 @@ polyclonal_params_default: &polyclonal_params_default
 
 # keyword arguments to `Polyclonal.mut_escape_plot`
 escape_plot_kwargs_default: &escape_plot_kwargs_default
+  alphabet: [R,K,H,D,E,Q,N,S,T,Y,W,F,A,I,L,M,V,G,P,C]
   addtl_slider_stats:
     times_seen: 2
   addtl_tooltip_stats:
@@ -231,7 +232,7 @@ avg_antibody_escape_default: &avg_antibody_escape_default
   plot_hide_stats: *plot_hide_stats_default
 
 # Define the antibodies/sera to average
-avg_antibody_escape:
+avg_antibody_escape: {}
 
 # Define the receptor affinity experiments to average
 avg_HA_binding_default: &avg_HA_binding_default
@@ -241,7 +242,7 @@ avg_HA_binding_default: &avg_HA_binding_default
     avg_type: median
     addtl_slider_stats:
       times_seen: 2
-      escape_std: 2.6
+      escape_std: 0.75
     addtl_slider_stats_as_max: [escape_std]
     per_model_tooltip: true
   icXX: 50  # IC50

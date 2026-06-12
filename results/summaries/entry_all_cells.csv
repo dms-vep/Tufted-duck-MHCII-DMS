@@ -1,4 +1,4 @@
-site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site,ORF_site,region
+site,wildtype,mutant,entry in 293T_H5_HA cells,sequential_site,structure_site,ORF_site,region
 -1(a),A,C,0.1847,1,-1_a,22,alpha chain
 -1(a),A,E,-0.1451,1,-1_a,22,alpha chain
 -1(a),A,F,0.1758,1,-1_a,22,alpha chain
@@ -16,19 +16,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 -1(a),A,V,-1.234,1,-1_a,22,alpha chain
 -1(a),A,W,-1.191,1,-1_a,22,alpha chain
 -1(a),A,Y,-0.02835,1,-1_a,22,alpha chain
--1(b),A,T,0.02742,279,,300,beta chain SP
--1(b),A,V,-0.07365,279,,300,beta chain SP
--11(b),V,I,-0.08617,269,,290,beta chain SP
--13(b),V,M,-0.2743,267,,288,beta chain SP
--16(b),A,T,-0.402,264,,285,beta chain SP
--16(b),A,V,0.03625,264,,285,beta chain SP
--17(b),G,S,0.0669,263,,284,beta chain SP
--21(b),G,D,0.1303,259,,280,beta chain SP
--23(b),G,D,0.2023,257,,278,beta chain SP
--3(b),R,H,0.2336,277,,298,beta chain SP
--9(b),L,P,-1.028,271,,292,beta chain SP
-1(T2A),G,E,-0.7392,235,,256,linker
-1(T2A),G,R,0.5375,235,,256,linker
 1(a),V,A,-0.08955,2,1_a,23,alpha chain
 1(a),V,C,-0.3248,2,1_a,23,alpha chain
 1(a),V,D,0.04713,2,1_a,23,alpha chain
@@ -872,8 +859,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 119(b),Y,T,-0.4126,398,119_b,419,beta chain
 119(b),Y,V,-0.1362,398,119_b,419,beta chain
 119(b),Y,W,0.1572,398,119_b,419,beta chain
-12(T2A),C,R,-1.591,246,,267,T2A
-12(T2A),C,Y,-1.954,246,,267,T2A
 12(a),F,A,-0.5541,13,12_a,34,alpha chain
 12(a),F,C,-1.077,13,12_a,34,alpha chain
 12(a),F,D,-2.424,13,12_a,34,alpha chain
@@ -1471,7 +1456,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 133(b),F,P,-6,412,133_b,433,beta chain
 133(b),F,Q,0.01201,412,133_b,433,beta chain
 133(b),F,R,0.05205,412,133_b,433,beta chain
-133(b),F,S,-3.073,412,133_b,433,beta chain
 133(b),F,T,-0.0294,412,133_b,433,beta chain
 133(b),F,V,0.3955,412,133_b,433,beta chain
 133(b),F,W,0.2648,412,133_b,433,beta chain
@@ -1704,7 +1688,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 139(b),E,V,-0.02331,418,139_b,439,beta chain
 139(b),E,W,-0.1866,418,139_b,439,beta chain
 139(b),E,Y,-0.0878,418,139_b,439,beta chain
-14(T2A),D,N,-1.337,248,,269,T2A
 14(a),Q,A,0.2329,15,14_a,36,alpha chain
 14(a),Q,C,-0.3837,15,14_a,36,alpha chain
 14(a),Q,D,-0.07055,15,14_a,36,alpha chain
@@ -2935,7 +2918,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 169(b),G,V,0.0039,448,169_b,469,beta chain
 169(b),G,W,-0.0165,448,169_b,469,beta chain
 169(b),G,Y,-0.4071,448,169_b,469,beta chain
-17(T2A),E,K,-0.03196,251,,272,T2A
 17(a),E,A,-0.1832,18,17_a,39,alpha chain
 17(a),E,C,0.01936,18,17_a,39,alpha chain
 17(a),E,D,0.06036,18,17_a,39,alpha chain
@@ -3153,7 +3135,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 174(b),C,I,-0.4785,453,174_b,474,beta chain
 174(b),C,K,-6,453,174_b,474,beta chain
 174(b),C,L,-0.05182,453,174_b,474,beta chain
-174(b),C,M,-1.969,453,174_b,474,beta chain
 174(b),C,N,-4.863,453,174_b,474,beta chain
 174(b),C,P,-4.822,453,174_b,474,beta chain
 174(b),C,Q,-5.67,453,174_b,474,beta chain
@@ -3502,7 +3483,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 183(a),E,D,0.1971,184,183_a,205,alpha chain
 183(a),E,F,-0.1314,184,183_a,205,alpha chain
 183(a),E,G,0.05665,184,183_a,205,alpha chain
-183(a),E,H,-1.26,184,183_a,205,alpha chain
 183(a),E,I,0.2386,184,183_a,205,alpha chain
 183(a),E,K,0.1452,184,183_a,205,alpha chain
 183(a),E,L,0.2722,184,183_a,205,alpha chain
@@ -4054,7 +4034,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 197(b),R,I,-0.3406,476,197_b,497,beta chain
 197(b),R,K,0.01195,476,197_b,497,beta chain
 197(b),R,L,-0.1343,476,197_b,497,beta chain
-197(b),R,M,-1.653,476,197_b,497,beta chain
 197(b),R,N,0.00064,476,197_b,497,beta chain
 197(b),R,P,-0.05925,476,197_b,497,beta chain
 197(b),R,Q,-0.1746,476,197_b,497,beta chain
@@ -4082,7 +4061,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 198(b),G,V,0.0656,477,198_b,498,beta chain
 198(b),G,W,-0.1159,477,198_b,498,beta chain
 198(b),G,Y,0.3819,477,198_b,498,beta chain
-199(a),C,Y,0.2613,200,,221,alpha chain TM
 199(b),K,A,-0.2691,478,199_b,499,beta chain
 199(b),K,C,-0.5632,478,199_b,499,beta chain
 199(b),K,D,-0.5459,478,199_b,499,beta chain
@@ -4177,11 +4155,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 20(b),L,V,-0.3429,299,20_b,320,beta chain
 20(b),L,W,0.08812,299,20_b,320,beta chain
 20(b),L,Y,-0.0014,299,20_b,320,beta chain
-202(a),G,S,0.1926,203,,224,alpha chain TM
-204(a),A,V,0.1058,205,,226,alpha chain TM
-206(a),G,D,-0.2802,207,,228,alpha chain TM
-208(a),V,M,0.4138,209,,230,alpha chain TM
-209(a),G,E,-0.02522,210,,231,alpha chain TM
 21(a),R,A,-0.0361,22,21_a,43,alpha chain
 21(a),R,C,-0.3497,22,21_a,43,alpha chain
 21(a),R,D,-0.2246,22,21_a,43,alpha chain
@@ -4218,8 +4191,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 21(b),N,V,-0.8852,300,21_b,321,beta chain
 21(b),N,W,-0.4404,300,21_b,321,beta chain
 21(b),N,Y,-0.5991,300,21_b,321,beta chain
-213(a),G,D,0.00975,214,,235,alpha chain TM
-216(a),L,P,-0.6961,217,,238,alpha chain TM
 22(a),E,A,-0.2507,23,22_a,44,alpha chain
 22(a),E,C,-0.5373,23,22_a,44,alpha chain
 22(a),E,D,-0.3113,23,22_a,44,alpha chain
@@ -4258,8 +4229,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 22(b),G,V,0.2392,301,22_b,322,beta chain
 22(b),G,W,-0.1382,301,22_b,322,beta chain
 22(b),G,Y,-0.331,301,22_b,322,beta chain
-221(a),M,I,0.224,222,,243,alpha chain CT
-223(a),M,I,-0.1375,224,,245,alpha chain CT
 23(a),G,A,-0.2007,24,23_a,45,alpha chain
 23(a),G,C,0.1443,24,23_a,45,alpha chain
 23(a),G,E,-0.3704,24,23_a,45,alpha chain
@@ -4297,7 +4266,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 23(b),T,V,0.1126,302,23_b,323,beta chain
 23(b),T,W,-0.5565,302,23_b,323,beta chain
 23(b),T,Y,0.2169,302,23_b,323,beta chain
-230(a),R,K,-1.913,231,,252,alpha chain CT
 24(a),G,A,-0.04717,25,24_a,46,alpha chain
 24(a),G,C,-0.7434,25,24_a,46,alpha chain
 24(a),G,D,-1.961,25,24_a,46,alpha chain
@@ -5754,7 +5722,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 59(b),D,V,-0.9868,338,59_b,359,beta chain
 59(b),D,W,-0.9194,338,59_b,359,beta chain
 59(b),D,Y,-0.6914,338,59_b,359,beta chain
-6(T2A),R,P,-1.385,240,,261,T2A
 6(a),V,A,-0.2671,7,6_a,28,alpha chain
 6(a),V,C,-0.3613,7,6_a,28,alpha chain
 6(a),V,D,-0.7355,7,6_a,28,alpha chain
@@ -6167,7 +6134,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 69(b),E,V,-0.6001,348,69_b,369,beta chain
 69(b),E,W,-0.1626,348,69_b,369,beta chain
 69(b),E,Y,-0.5486,348,69_b,369,beta chain
-7(T2A),G,D,-1.78,241,,262,T2A
 7(a),L,A,-0.5294,8,7_a,29,alpha chain
 7(a),L,C,-0.4263,8,7_a,29,alpha chain
 7(a),L,D,-5.482,8,7_a,29,alpha chain
@@ -6421,7 +6387,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 75(b),A,M,0.1153,354,75_b,375,beta chain
 75(b),A,N,0.1995,354,75_b,375,beta chain
 75(b),A,P,-1.055,354,75_b,375,beta chain
-75(b),A,Q,-0.858,354,75_b,375,beta chain
 75(b),A,R,-0.1011,354,75_b,375,beta chain
 75(b),A,S,-0.0735,354,75_b,375,beta chain
 75(b),A,T,0.368,354,75_b,375,beta chain
@@ -6500,7 +6465,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 77(b),I,T,0.3893,356,77_b,377,beta chain
 77(b),I,V,0.0102,356,77_b,377,beta chain
 77(b),I,W,0.2067,356,77_b,377,beta chain
-77(b),I,Y,-3.133,356,77_b,377,beta chain
 78(a),M,A,-0.0235,79,78_a,100,alpha chain
 78(a),M,C,-0.2631,79,78_a,100,alpha chain
 78(a),M,D,-0.3499,79,78_a,100,alpha chain
@@ -6511,7 +6475,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 78(a),M,I,-0.04077,79,78_a,100,alpha chain
 78(a),M,K,-0.4338,79,78_a,100,alpha chain
 78(a),M,L,0.1711,79,78_a,100,alpha chain
-78(a),M,N,-1.585,79,78_a,100,alpha chain
 78(a),M,P,-3.444,79,78_a,100,alpha chain
 78(a),M,Q,0.1585,79,78_a,100,alpha chain
 78(a),M,R,0.01978,79,78_a,100,alpha chain
@@ -7393,16 +7356,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 99(b),K,W,0.05322,378,99_b,399,beta chain
 99(b),K,Y,0.09647,378,99_b,399,beta chain
 -1(a),A,A,0,1,-1_a,22,alpha chain
--1(b),A,A,0,279,,300,beta chain SP
--11(b),V,V,0,269,,290,beta chain SP
--13(b),V,V,0,267,,288,beta chain SP
--16(b),A,A,0,264,,285,beta chain SP
--17(b),G,G,0,263,,284,beta chain SP
--21(b),G,G,0,259,,280,beta chain SP
--23(b),G,G,0,257,,278,beta chain SP
--3(b),R,R,0,277,,298,beta chain SP
--9(b),L,L,0,271,,292,beta chain SP
-1(T2A),G,G,0,235,,256,linker
 1(a),V,V,0,2,1_a,23,alpha chain
 10(a),T,T,0,11,10_a,32,alpha chain
 10(b),Q,Q,0,289,10_b,310,beta chain
@@ -7448,7 +7401,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 118(b),C,C,0,397,118_b,418,beta chain
 119(a),S,S,0,120,119_a,141,alpha chain
 119(b),Y,Y,0,398,119_b,419,beta chain
-12(T2A),C,C,0,246,,267,T2A
 12(a),F,F,0,13,12_a,34,alpha chain
 12(b),M,M,0,291,12_b,312,beta chain
 120(a),V,V,0,121,120_a,142,alpha chain
@@ -7493,7 +7445,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 138(b),E,E,0,417,138_b,438,beta chain
 139(a),T,T,0,140,139_a,161,alpha chain
 139(b),E,E,0,418,139_b,439,beta chain
-14(T2A),D,D,0,248,,269,T2A
 14(a),Q,Q,0,15,14_a,36,alpha chain
 14(b),A,A,0,293,14_b,314,beta chain
 140(a),V,V,0,141,140_a,162,alpha chain
@@ -7560,7 +7511,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 168(b),H,H,0,447,168_b,468,beta chain
 169(a),V,V,0,170,169_a,191,alpha chain
 169(b),G,G,0,448,169_b,469,beta chain
-17(T2A),E,E,0,251,,272,T2A
 17(a),E,E,0,18,17_a,39,alpha chain
 17(b),C,C,0,296,17_b,317,beta chain
 170(a),E,E,0,171,170_a,192,alpha chain
@@ -7622,28 +7572,17 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 196(b),A,A,0,475,196_b,496,beta chain
 197(b),R,R,0,476,197_b,497,beta chain
 198(b),G,G,0,477,198_b,498,beta chain
-199(a),C,C,0,200,,221,alpha chain TM
 199(b),K,K,0,478,199_b,499,beta chain
 2(a),K,K,0,3,2_a,24,alpha chain
 2(b),G,G,0,281,2_b,302,beta chain
 20(a),N,N,0,21,20_a,42,alpha chain
 20(b),L,L,0,299,20_b,320,beta chain
-202(a),G,G,0,203,,224,alpha chain TM
-204(a),A,A,0,205,,226,alpha chain TM
-206(a),G,G,0,207,,228,alpha chain TM
-208(a),V,V,0,209,,230,alpha chain TM
-209(a),G,G,0,210,,231,alpha chain TM
 21(a),R,R,0,22,21_a,43,alpha chain
 21(b),N,N,0,300,21_b,321,beta chain
-213(a),G,G,0,214,,235,alpha chain TM
-216(a),L,L,0,217,,238,alpha chain TM
 22(a),E,E,0,23,22_a,44,alpha chain
 22(b),G,G,0,301,22_b,322,beta chain
-221(a),M,M,0,222,,243,alpha chain CT
-223(a),M,M,0,224,,245,alpha chain CT
 23(a),G,G,0,24,23_a,45,alpha chain
 23(b),T,T,0,302,23_b,323,beta chain
-230(a),R,R,0,231,,252,alpha chain CT
 24(a),G,G,0,25,24_a,46,alpha chain
 24(b),E,E,0,303,24_b,324,beta chain
 25(a),Q,Q,0,26,25_a,47,alpha chain
@@ -7722,7 +7661,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 58(b),P,P,0,337,58_b,358,beta chain
 59(a),E,E,0,60,59_a,81,alpha chain
 59(b),D,D,0,338,59_b,359,beta chain
-6(T2A),R,R,0,240,,261,T2A
 6(a),V,V,0,7,6_a,28,alpha chain
 6(b),K,K,0,285,6_b,306,beta chain
 60(a),A,A,0,61,60_a,82,alpha chain
@@ -7745,7 +7683,6 @@ site,wildtype,mutant,entry in 292_M3_tat_H5 cells,sequential_site,structure_site
 68(b),E,E,0,347,68_b,368,beta chain
 69(a),V,V,0,70,69_a,91,alpha chain
 69(b),E,E,0,348,69_b,369,beta chain
-7(T2A),G,G,0,241,,262,T2A
 7(a),L,L,0,8,7_a,29,alpha chain
 7(b),G,G,0,286,7_b,307,beta chain
 70(a),D,D,0,71,70_a,92,alpha chain

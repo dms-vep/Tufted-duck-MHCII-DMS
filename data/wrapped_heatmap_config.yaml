@@ -2,8 +2,8 @@
 
 entry_in_293T_H5_HA_cells: &entry_tufted_duck_MHCII
   data_csv: results/summaries/entry_all_cells.csv
-  title: entry in 293T-H5-HA cells
-  effect_col: entry in 292_M3_tat_H5 cells
+  title: entry in 293T-H5-HA cells for tufted duck MHC-II inverse pseudotyped virions
+  effect_col: entry in 293T_H5_HA cells
   data_query_str: {}  # ignore this site
   sites_per_row: 113  # how many sites in each row
   site_label_freq: 10  # label sites at this frequency
@@ -14,8 +14,8 @@ entry_in_293T_H5_HA_cells: &entry_tufted_duck_MHCII
 
 tufted-duck_MHCII-binding: &tufted_duck_MHCII_binding
   data_csv: results/summaries/HA_binding.csv
-  title: effect of mutations on binding to H5 HA
-  effect_col: HA binding escape
+  title: effect of tufted duck MHC-II mutations on binding to H5 HA
+  effect_col: H5 HA binding escape
   data_query_str: {}  # ignore this site
   sites_per_row: 113  # how many sites in each row
   site_label_freq: 10  # label sites at this frequency
@@ -27,5 +27,5 @@ tufted-duck_MHCII-binding: &tufted_duck_MHCII_binding
   fixed_max: 2  # fix heatmap max at this
   alphabet: RKHDEQNSTYWFAILMVGPC  # amino acids in order
   dark_gray_muts:
-    col: entry in 292_M3_tat_H5 cells
+    col: entry in 293T_H5_HA cells
     cutoff: -3

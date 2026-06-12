@@ -26,19 +26,19 @@ summary_default: &summary_default
 
 cell_entry_default: &cell_entry_default
   stat: effect  # column to plot
-  color_scheme: redblue
+  color_scheme: purplegreen
   max_at_least: 2
   fixed_min: -5
   init_min_value: null
   le_filters:
-    effect_std: 1.5  # remove if std > than this
+    effect_std: 1.1  # remove if std > than this
 
 # Entry in different cells
 entry_all_cells:
   <<: *summary_default
   antibody_escape: {}
   other_phenotypes:
-    entry in 292_M3_tat_H5 cells:
+    entry in 293T_H5_HA cells:
       <<: *cell_entry_default
       csv: results/func_effects/averages/293_M3_tat_H5_RT_func_effects_singlemut.csv
 
@@ -46,18 +46,17 @@ entry_all_cells:
 HA_binding:
   <<: *summary_default
   antibody_escape:  # show effects on antibody escape, empty dict if no antibodies being shown
-    HA binding:  # name each set of antibodies
+    H5 HA binding:  # name each set of antibodies
       stat: HA binding_median  # statistic to use for escape
-      positive_color: "#134B85"  
-      negative_color: "#AA2531"  
-      max_at_least: 1.5  # make heatmap max at least
+      color_scheme: redblue
+      max_at_least: 2  # make heatmap max at least
       min_at_least: -2  # make heatmap min at least this
       antibody_list:  # antibodies to include: keys name used for `avg_escape`, values name for plot
         H5-HA: results/HA_binding/averages/H5_HA_binding_mut_effect.csv
       le_filters:
-        HA binding_std: 2.6
+        HA binding_std: 0.75
   other_phenotypes:
-    entry in 292_M3_tat_H5 cells:  
+    entry in 293T_H5_HA cells:  
       <<: *cell_entry_default
       csv: results/func_effects/averages/293_M3_tat_H5_RT_func_effects_singlemut.csv
       init_min_value: -3  # initial min value in slider        
