@@ -43,4 +43,4 @@ Red indicates sites where most mutations decrease HA binding and blue indicates 
 ## Numerical values of mutation effects on MHC-II binding
 For numerical data, see the following CSVs:
   - [Effects of mutations on H5 HA binding after recommended QC](https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/summaries/HA_binding.csv) 
-  - [Measured effects on MHC-II binding with full QC details but QC not pre-applied to numerical values](https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/averages/HA_binding_mut_effect.csv) (only use this file if you understand QC filters)
+  - [Measured effects on MHC-II binding with full QC details but QC not pre-applied to numerical values](https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/averages/H5_HA_binding_mut_effect.csv) (only use this file if you understand QC filters)
