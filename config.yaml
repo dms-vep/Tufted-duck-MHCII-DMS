@@ -4,7 +4,7 @@
 # Configuration for VitePress homepage
 # https://github.com/dms-vep/dms-vep-pipeline-3/tree/master/homepage
 # ----------------------------------------------------------------------------
-build_vitepress_homepage: false
+build_vitepress_homepage: true
 
 # ----------------------------------------------------------------------------
 # Relative paths from this directory containing the configuration (and where

@@ -1,0 +1,339 @@
+<h1 id="deep-mutational-scanning-of-ha-mediated-cell-entry-in-mhcii-expressing-cells-as-measured-using-pseudoviruses-with-ha-from-aamerican-wigeonsouth-carolinausda-000345-0012021-h5n1">Deep mutational scanning of HA mediated cell entry in MHCII expressing cells as measured using pseudoviruses with HA from A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1)</h1>
+<p>Analysis by Bernadeta Dadonaite and Jesse Bloom (2025)</p>
+<p>See <a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS">https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS</a> for full code.</p>
+<p>Documentation of results rendered as of Thu Jul  2 07:54:10 2026</p>
+<div class="toc"><span class="toctitle">Contents</span><ul>
+<li><a href="#barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</a></li>
+<li><a href="#count-barcodes-for-variants">Count barcodes for variants</a></li>
+<li><a href="#functional-effects-of-mutations">Functional effects of mutations</a></li>
+<li><a href="#mhcii-binding">MHCII binding</a></li>
+<li><a href="#integrated-summary-plots">Integrated summary plots</a></li>
+<li><a href="#compare-entry-among-cells">Compare entry among cells</a></li>
+<li><a href="#row-wrapped-heatmaps">Row-wrapped heatmaps</a></li>
+<li><a href="#dms-viz-visualizations">dms-viz visualizations</a></li>
+<li><a href="#additional-files">Additional files</a></li>
+<li><a href="#additional-plots">Additional plots</a></li>
+</ul>
+</div>
+<h2 id="barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</h2>
+<h4 id="data-files">Data files</h4>
+<ul>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/gene_sequence/codon.fasta">parental codon sequence</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/gene_sequence/protein.fasta">parental protein sequence</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/variants/codon_variants.csv">barcode to codon-variant lookup table</a></li>
+</ul>
+<h2 id="count-barcodes-for-variants">Count barcodes for variants</h2>
+<h4 id="analysis-notebooks">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_variant_counts.html">Analysis of variant counts</a></li>
+</ul>
+<h4 id="data-files_1">Data files</h4>
+<ul>
+<li><details><summary>Barcode count CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-241216-293-IGM-H5-control_counts.csv">Lib1-241216-293-IGM-H5-control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-241216-293-IGM-H5-control_counts.csv">Lib2-241216-293-IGM-H5-control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-241216-293-IGM-VSVG-control_counts.csv">Lib1-241216-293-IGM-VSVG-control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-241216-293-IGM-VSVG-control_counts.csv">Lib2-241216-293-IGM-VSVG-control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-241216-293-SA23-IGM-H5-control_counts.csv">Lib1-241216-293-SA23-IGM-H5-control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-241216-293-SA23-IGM-H5-control_counts.csv">Lib2-241216-293-SA23-IGM-H5-control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-241216-293-SA23-IGM-VSVG-control_counts.csv">Lib1-241216-293-SA23-IGM-VSVG-control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-241216-293-SA23-IGM-VSVG-control_counts.csv">Lib2-241216-293-SA23-IGM-VSVG-control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-241216-293-SA26-IGM-H5-control_counts.csv">Lib1-241216-293-SA26-IGM-H5-control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-241216-293-SA26-IGM-H5-control_counts.csv">Lib2-241216-293-SA26-IGM-H5-control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-241216-293-SA26-IGM-VSVG-control_counts.csv">Lib1-241216-293-SA26-IGM-VSVG-control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-241216-293-SA26-IGM-VSVG-control_counts.csv">Lib2-241216-293-SA26-IGM-VSVG-control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-250504-H5-no_mAb_counts.csv">Lib1-250504-H5-no_mAb</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-250504-H5_VSVG_counts.csv">Lib1-250504-H5_VSVG</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-250504-H5-no_mAb_counts.csv">Lib2-250504-H5-no_mAb</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-250504-H5_VSVG_counts.csv">Lib2-250504-H5_VSVG</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-251017-293-noSA-duck-MHCII_counts.csv">Lib1-251017-293-noSA-duck-MHCII</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-251017-293-noSA-duck-MHCII_counts.csv">Lib2-251017-293-noSA-duck-MHCII</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-251017-293-noSA-mixedMHCII-VSVG_counts.csv">Lib1-251017-293-noSA-mixedMHCII-VSVG</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-251017-293-noSA-mixedMHCII-VSVG_counts.csv">Lib2-251017-293-noSA-mixedMHCII-VSVG</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-251218-duck_MHCII_10_counts.csv">Lib1-251218-duck_MHCII_10</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-251218-duck_MHCII_4_counts.csv">Lib1-251218-duck_MHCII_4</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-251218-duck_MHCII_04_counts.csv">Lib1-251218-duck_MHCII_04</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-251218-duck_MHCII_02_counts.csv">Lib1-251218-duck_MHCII_02</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-251218-duck_MHCII_01_counts.csv">Lib1-251218-duck_MHCII_01</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-251218-duck_MHCII_006_counts.csv">Lib1-251218-duck_MHCII_006</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-251218-duck_MHCII-no-antibody_control_counts.csv">Lib1-251218-duck_MHCII-no-antibody_control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-251218-duck_MHCII_10_counts.csv">Lib2-251218-duck_MHCII_10</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-251218-duck_MHCII_4_counts.csv">Lib2-251218-duck_MHCII_4</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-251218-duck_MHCII_04_counts.csv">Lib2-251218-duck_MHCII_04</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-251218-duck_MHCII_02_counts.csv">Lib2-251218-duck_MHCII_02</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-251218-duck_MHCII_01_counts.csv">Lib2-251218-duck_MHCII_01</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-251218-duck_MHCII_006_counts.csv">Lib2-251218-duck_MHCII_006</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-251218-duck_MHCII-no-antibody_control_counts.csv">Lib2-251218-duck_MHCII-no-antibody_control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-260107-duck_MHCII_10_counts.csv">Lib1-260107-duck_MHCII_10</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-260107-duck_MHCII_4_counts.csv">Lib1-260107-duck_MHCII_4</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-260107-duck_MHCII_04_counts.csv">Lib1-260107-duck_MHCII_04</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-260107-duck_MHCII_02_counts.csv">Lib1-260107-duck_MHCII_02</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-260107-duck_MHCII_01_counts.csv">Lib1-260107-duck_MHCII_01</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-260107-duck_MHCII_006_counts.csv">Lib1-260107-duck_MHCII_006</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib1-260107-duck_MHCII-no-antibody_control_counts.csv">Lib1-260107-duck_MHCII-no-antibody_control</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-260107-duck_MHCII_10_counts.csv">Lib2-260107-duck_MHCII_10</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-260107-duck_MHCII_4_counts.csv">Lib2-260107-duck_MHCII_4</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-260107-duck_MHCII_04_counts.csv">Lib2-260107-duck_MHCII_04</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-260107-duck_MHCII_02_counts.csv">Lib2-260107-duck_MHCII_02</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-260107-duck_MHCII_01_counts.csv">Lib2-260107-duck_MHCII_01</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-260107-duck_MHCII_006_counts.csv">Lib2-260107-duck_MHCII_006</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/barcode_counts/Lib2-260107-duck_MHCII-no-antibody_control_counts.csv">Lib2-260107-duck_MHCII-no-antibody_control</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="functional-effects-of-mutations">Functional effects of mutations</h2>
+<h4 id="final-summary-plots">Final summary plots</h4>
+<ul>
+<li><details><summary>Interactive plots of average mutation functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/293_SA23_low-sera_entry_func_effects.html">293_SA23_low-sera_entry</a></li>
+<li><a href="htmls/293_SA26_low-sera_entry_func_effects.html">293_SA26_low-sera_entry</a></li>
+<li><a href="htmls/SA23_SA26_low-sera_entry_func_effects.html">SA23_SA26_low-sera_entry</a></li>
+<li><a href="htmls/293-noSA-tufted-duck-MHCII_func_effects.html">293-noSA-tufted-duck-MHCII</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Interactive plots of average mutation functional effects from single-mutant variants only (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/293_SA23_low-sera_entry_func_effects_singlemut.html">293_SA23_low-sera_entry</a></li>
+<li><a href="htmls/293_SA26_low-sera_entry_func_effects_singlemut.html">293_SA26_low-sera_entry</a></li>
+<li><a href="htmls/SA23_SA26_low-sera_entry_func_effects_singlemut.html">SA23_SA26_low-sera_entry</a></li>
+<li><a href="htmls/293-noSA-tufted-duck-MHCII_func_effects_singlemut.html">293-noSA-tufted-duck-MHCII</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Interactive plots of differences in functional effects between conditions (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/SA26_vs_SA23_low-sera_entry_diffs.html">SA26_vs_SA23_low-sera_entry</a></li>
+<li><a href="htmls/tufted-duck-MHCII_vs_SA23_entry_diffs.html">tufted-duck-MHCII_vs_SA23_entry</a></li>
+<li><a href="htmls/tufted-duck-MHCII_vs_SA26_entry_diffs.html">tufted-duck-MHCII_vs_SA26_entry</a></li>
+<li><a href="htmls/tufted-duck-MHCII_vs_SA26-SA23_entry_diffs.html">tufted-duck-MHCII_vs_SA26-SA23_entry</a></li>
+<li><a href="htmls/SA26_vs_SA23_low-sera_entry_diffs_corr.html">SA26_vs_SA23_low-sera_entry correlation chart</a></li>
+<li><a href="htmls/tufted-duck-MHCII_vs_SA23_entry_diffs_corr.html">tufted-duck-MHCII_vs_SA23_entry correlation chart</a></li>
+<li><a href="htmls/tufted-duck-MHCII_vs_SA26_entry_diffs_corr.html">tufted-duck-MHCII_vs_SA26_entry correlation chart</a></li>
+<li><a href="htmls/tufted-duck-MHCII_vs_SA26-SA23_entry_diffs_corr.html">tufted-duck-MHCII_vs_SA26-SA23_entry correlation chart</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="analysis-notebooks_1">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_func_scores.html">Analysis of functional scores</a></li>
+<li><details><summary>Notebooks with per-selection global epistasis fitting (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/func_effects_global_epistasis_Lib1-241216-SA23-IGM.html">Lib1-241216-SA23-IGM</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_Lib2-241216-SA23-IGM.html">Lib2-241216-SA23-IGM</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_Lib1-241216-SA26-IGM.html">Lib1-241216-SA26-IGM</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_Lib2-241216-SA26-IGM.html">Lib2-241216-SA26-IGM</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_Lib1-250504-SA26-SA23-IGM.html">Lib1-250504-SA26-SA23-IGM</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_Lib2-250504-SA26-SA23-IGM.html">Lib2-250504-SA26-SA23-IGM</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_Lib1-251017-293-noSA-duck-MHCII.html">Lib1-251017-293-noSA-duck-MHCII</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_Lib2-251017-293-noSA-duck-MHCII.html">Lib2-251017-293-noSA-duck-MHCII</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Notebooks averaging mutation functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_func_effects_293_SA23_low-sera_entry.html">293_SA23_low-sera_entry</a></li>
+<li><a href="notebooks/avg_func_effects_293_SA26_low-sera_entry.html">293_SA26_low-sera_entry</a></li>
+<li><a href="notebooks/avg_func_effects_SA23_SA26_low-sera_entry.html">SA23_SA26_low-sera_entry</a></li>
+<li><a href="notebooks/avg_func_effects_293-noSA-tufted-duck-MHCII.html">293-noSA-tufted-duck-MHCII</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Notebooks taking differences in functional effects between conditions (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/func_effect_diffs_SA26_vs_SA23_low-sera_entry.html">SA26_vs_SA23_low-sera_entry</a></li>
+<li><a href="notebooks/func_effect_diffs_tufted-duck-MHCII_vs_SA23_entry.html">tufted-duck-MHCII_vs_SA23_entry</a></li>
+<li><a href="notebooks/func_effect_diffs_tufted-duck-MHCII_vs_SA26_entry.html">tufted-duck-MHCII_vs_SA26_entry</a></li>
+<li><a href="notebooks/func_effect_diffs_tufted-duck-MHCII_vs_SA26-SA23_entry.html">tufted-duck-MHCII_vs_SA26-SA23_entry</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="data-files_2">Data files</h4>
+<ul>
+<li><details><summary>Per-variant functional score CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_scores/Lib1-241216-SA23-IGM_func_scores.csv">Lib1-241216-SA23-IGM</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_scores/Lib2-241216-SA23-IGM_func_scores.csv">Lib2-241216-SA23-IGM</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_scores/Lib1-241216-SA26-IGM_func_scores.csv">Lib1-241216-SA26-IGM</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_scores/Lib2-241216-SA26-IGM_func_scores.csv">Lib2-241216-SA26-IGM</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_scores/Lib1-250504-SA26-SA23-IGM_func_scores.csv">Lib1-250504-SA26-SA23-IGM</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_scores/Lib2-250504-SA26-SA23-IGM_func_scores.csv">Lib2-250504-SA26-SA23-IGM</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_scores/Lib1-251017-293-noSA-duck-MHCII_func_scores.csv">Lib1-251017-293-noSA-duck-MHCII</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_scores/Lib2-251017-293-noSA-duck-MHCII_func_scores.csv">Lib2-251017-293-noSA-duck-MHCII</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Per-selection mutation functional effect CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/by_selection/Lib1-241216-SA23-IGM_func_effects.csv">Lib1-241216-SA23-IGM</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/by_selection/Lib2-241216-SA23-IGM_func_effects.csv">Lib2-241216-SA23-IGM</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/by_selection/Lib1-241216-SA26-IGM_func_effects.csv">Lib1-241216-SA26-IGM</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/by_selection/Lib2-241216-SA26-IGM_func_effects.csv">Lib2-241216-SA26-IGM</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/by_selection/Lib1-250504-SA26-SA23-IGM_func_effects.csv">Lib1-250504-SA26-SA23-IGM</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/by_selection/Lib2-250504-SA26-SA23-IGM_func_effects.csv">Lib2-250504-SA26-SA23-IGM</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/by_selection/Lib1-251017-293-noSA-duck-MHCII_func_effects.csv">Lib1-251017-293-noSA-duck-MHCII</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/by_selection/Lib2-251017-293-noSA-duck-MHCII_func_effects.csv">Lib2-251017-293-noSA-duck-MHCII</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation functional effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/averages/293_SA23_low-sera_entry_func_effects.csv">293_SA23_low-sera_entry</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/averages/293_SA26_low-sera_entry_func_effects.csv">293_SA26_low-sera_entry</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/averages/SA23_SA26_low-sera_entry_func_effects.csv">SA23_SA26_low-sera_entry</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/averages/293-noSA-tufted-duck-MHCII_func_effects.csv">293-noSA-tufted-duck-MHCII</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation functional effects from single-mutant variants only (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/averages/293_SA23_low-sera_entry_func_effects_singlemut.csv">293_SA23_low-sera_entry</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/averages/293_SA26_low-sera_entry_func_effects_singlemut.csv">293_SA26_low-sera_entry</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/averages/SA23_SA26_low-sera_entry_func_effects_singlemut.csv">SA23_SA26_low-sera_entry</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/averages/293-noSA-tufted-duck-MHCII_func_effects_singlemut.csv">293-noSA-tufted-duck-MHCII</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation latent-phenotype effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/averages/293_SA23_low-sera_entry_func_effects.csv">293_SA23_low-sera_entry</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/averages/293_SA26_low-sera_entry_func_effects.csv">293_SA26_low-sera_entry</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/averages/SA23_SA26_low-sera_entry_func_effects.csv">SA23_SA26_low-sera_entry</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effects/averages/293-noSA-tufted-duck-MHCII_func_effects.csv">293-noSA-tufted-duck-MHCII</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Differences in functional effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effect_diffs/SA26_vs_SA23_low-sera_entry_diffs.csv">SA26_vs_SA23_low-sera_entry</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effect_diffs/tufted-duck-MHCII_vs_SA23_entry_diffs.csv">tufted-duck-MHCII_vs_SA23_entry</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effect_diffs/tufted-duck-MHCII_vs_SA26_entry_diffs.csv">tufted-duck-MHCII_vs_SA26_entry</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/func_effect_diffs/tufted-duck-MHCII_vs_SA26-SA23_entry_diffs.csv">tufted-duck-MHCII_vs_SA26-SA23_entry</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="mhcii-binding">MHCII binding</h2>
+<h4 id="final-summary-plots_1">Final summary plots</h4>
+<ul>
+<li><details><summary>MHCII binding mutation effect plots (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/tufted_duck_MHCII_binding_mut_effect.html">tufted_duck_MHCII_binding</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="analysis-notebooks_2">Analysis notebooks</h4>
+<ul>
+<li><details><summary>Fits of polyclonal models to individual MHCII binding selections (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/fit_escape_MHCII_binding_Lib1-251218-duck_MHCII.html">Lib1-251218-duck_MHCII</a></li>
+<li><a href="notebooks/fit_escape_MHCII_binding_Lib2-251218-duck_MHCII.html">Lib2-251218-duck_MHCII</a></li>
+<li><a href="notebooks/fit_escape_MHCII_binding_Lib1-260107-duck_MHCII.html">Lib1-260107-duck_MHCII</a></li>
+<li><a href="notebooks/fit_escape_MHCII_binding_Lib2-260107-duck_MHCII.html">Lib2-260107-duck_MHCII</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average selections for MHCII binding (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_escape_MHCII_binding_tufted_duck_MHCII_binding.html">tufted_duck_MHCII_binding</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="data-files_3">Data files</h4>
+<ul>
+<li><details><summary>Probability (fraction) escape for each variant in each MHCII binding selection (CSVs) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib1-251218-duck_MHCII/Lib1-251218-duck_MHCII_10_prob_escape.csv">Lib1-251218-duck_MHCII Lib1-251218-duck_MHCII_10</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib1-251218-duck_MHCII/Lib1-251218-duck_MHCII_4_prob_escape.csv">Lib1-251218-duck_MHCII Lib1-251218-duck_MHCII_4</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib1-251218-duck_MHCII/Lib1-251218-duck_MHCII_04_prob_escape.csv">Lib1-251218-duck_MHCII Lib1-251218-duck_MHCII_04</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib1-251218-duck_MHCII/Lib1-251218-duck_MHCII_02_prob_escape.csv">Lib1-251218-duck_MHCII Lib1-251218-duck_MHCII_02</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib1-251218-duck_MHCII/Lib1-251218-duck_MHCII_01_prob_escape.csv">Lib1-251218-duck_MHCII Lib1-251218-duck_MHCII_01</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib1-251218-duck_MHCII/Lib1-251218-duck_MHCII_006_prob_escape.csv">Lib1-251218-duck_MHCII Lib1-251218-duck_MHCII_006</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib2-251218-duck_MHCII/Lib2-251218-duck_MHCII_10_prob_escape.csv">Lib2-251218-duck_MHCII Lib2-251218-duck_MHCII_10</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib2-251218-duck_MHCII/Lib2-251218-duck_MHCII_4_prob_escape.csv">Lib2-251218-duck_MHCII Lib2-251218-duck_MHCII_4</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib2-251218-duck_MHCII/Lib2-251218-duck_MHCII_04_prob_escape.csv">Lib2-251218-duck_MHCII Lib2-251218-duck_MHCII_04</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib2-251218-duck_MHCII/Lib2-251218-duck_MHCII_02_prob_escape.csv">Lib2-251218-duck_MHCII Lib2-251218-duck_MHCII_02</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib2-251218-duck_MHCII/Lib2-251218-duck_MHCII_01_prob_escape.csv">Lib2-251218-duck_MHCII Lib2-251218-duck_MHCII_01</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib2-251218-duck_MHCII/Lib2-251218-duck_MHCII_006_prob_escape.csv">Lib2-251218-duck_MHCII Lib2-251218-duck_MHCII_006</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib1-260107-duck_MHCII/Lib1-260107-duck_MHCII_10_prob_escape.csv">Lib1-260107-duck_MHCII Lib1-260107-duck_MHCII_10</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib1-260107-duck_MHCII/Lib1-260107-duck_MHCII_4_prob_escape.csv">Lib1-260107-duck_MHCII Lib1-260107-duck_MHCII_4</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib1-260107-duck_MHCII/Lib1-260107-duck_MHCII_04_prob_escape.csv">Lib1-260107-duck_MHCII Lib1-260107-duck_MHCII_04</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib1-260107-duck_MHCII/Lib1-260107-duck_MHCII_02_prob_escape.csv">Lib1-260107-duck_MHCII Lib1-260107-duck_MHCII_02</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib1-260107-duck_MHCII/Lib1-260107-duck_MHCII_01_prob_escape.csv">Lib1-260107-duck_MHCII Lib1-260107-duck_MHCII_01</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib1-260107-duck_MHCII/Lib1-260107-duck_MHCII_006_prob_escape.csv">Lib1-260107-duck_MHCII Lib1-260107-duck_MHCII_006</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib2-260107-duck_MHCII/Lib2-260107-duck_MHCII_10_prob_escape.csv">Lib2-260107-duck_MHCII Lib2-260107-duck_MHCII_10</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib2-260107-duck_MHCII/Lib2-260107-duck_MHCII_4_prob_escape.csv">Lib2-260107-duck_MHCII Lib2-260107-duck_MHCII_4</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib2-260107-duck_MHCII/Lib2-260107-duck_MHCII_04_prob_escape.csv">Lib2-260107-duck_MHCII Lib2-260107-duck_MHCII_04</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib2-260107-duck_MHCII/Lib2-260107-duck_MHCII_02_prob_escape.csv">Lib2-260107-duck_MHCII Lib2-260107-duck_MHCII_02</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib2-260107-duck_MHCII/Lib2-260107-duck_MHCII_01_prob_escape.csv">Lib2-260107-duck_MHCII Lib2-260107-duck_MHCII_01</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/by_selection/Lib2-260107-duck_MHCII/Lib2-260107-duck_MHCII_006_prob_escape.csv">Lib2-260107-duck_MHCII Lib2-260107-duck_MHCII_006</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>MHCII binding CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/MHCII_binding/averages/tufted_duck_MHCII_binding_mut_effect.csv">tufted_duck_MHCII_binding</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="integrated-summary-plots">Integrated summary plots</h2>
+<h4 id="entry-all-cells">entry all cells</h4>
+<ul>
+<li><a href="htmls/entry_all_cells_overlaid.html">Summary plot</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/summaries/entry_all_cells.csv">CSV summarizing results</a></li>
+</ul>
+<h4 id="tufted-duck-mhcii-binding">tufted duck MHCII binding</h4>
+<ul>
+<li><a href="htmls/tufted_duck_MHCII_binding_overlaid.html">Summary plot (escape overlaid)</a></li>
+<li><a href="htmls/tufted_duck_MHCII_binding_faceted.html">Summary plot (escape faceted)</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/summaries/tufted_duck_MHCII_binding.csv">CSV summarizing results</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/summaries/tufted_duck_MHCII_binding_per_antibody_escape.csv">CSV summarizing per-antibody results</a></li>
+</ul>
+<h2 id="compare-entry-among-cells">Compare entry among cells</h2>
+<h4 id="final-plots">Final plots</h4>
+<ul>
+<li><a href="htmls/compare_cell_entry_scatter.html">Scatter plots of mutation effects in different cells</a></li>
+<li><a href="htmls/compare_cell_entry_site_zoom.html">Zoomable site chart of differences</a></li>
+</ul>
+<h4 id="analysis-notebooks_3">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/compare_cell_entry.html">Notebook making plots comparing entry</a></li>
+</ul>
+<h4 id="data-files_4">Data files</h4>
+<ul>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/compare_cell_entry/site_diffs.csv">site-differences in entry effects</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/compare_cell_entry/mut_diffs.csv">mutation-differences in entry effects (after flooring negative values)</a></li>
+</ul>
+<h2 id="row-wrapped-heatmaps">Row-wrapped heatmaps</h2>
+<h4 id="heatmap-htmls">Heatmap HTMLs</h4>
+<ul>
+<li><a href="htmls/entry_in_noSA_tufted_duck_MHCII_wrapped_heatmap.html">entry_in_noSA_tufted_duck_MHCII</a></li>
+<li><a href="htmls/tufted-duck_MHCII-binding_wrapped_heatmap.html">tufted-duck_MHCII-binding</a></li>
+<li><a href="htmls/tufted-duck_MHCII-SA2326_entry_difference_wrapped_heatmap.html">tufted-duck_MHCII-SA2326_entry_difference</a></li>
+</ul>
+<h2 id="dms-viz-visualizations">dms-viz visualizations</h2>
+<h4 id="dms-viz-json-files">dms-viz JSON files</h4>
+<ul>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/dms-viz/cell_entry_on_4kwm/cell_entry_on_4kwm.json">cell_entry_on_4kwm</a></li>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/results/dms-viz/cell_entry_diffs_on_4kwm/cell_entry_diffs_on_4kwm.json">cell_entry_diffs_on_4kwm</a></li>
+</ul>
+<h4 id="notebooks-prepping-dms-viz-jsons">Notebooks prepping dms-viz JSONs</h4>
+<ul>
+<li><a href="notebooks/configure_dms_viz_cell_entry_on_4kwm.html">cell_entry_on_4kwm</a></li>
+<li><a href="notebooks/configure_dms_viz_cell_entry_diffs_on_4kwm.html">cell_entry_diffs_on_4kwm</a></li>
+</ul>
+<h2 id="additional-files">Additional files</h2>
+<h4 id="ha-site-numbering">HA site numbering</h4>
+<ul>
+<li><a href="https://github.com/dms-vep/Flu-H5N1-American-Wigeon-2021-HA-MHCII-DMS/blob/main/data/site_numbering_map.csv">CSV converting among different protein numbering schemes</a></li>
+</ul>
+<h2 id="additional-plots">Additional plots</h2>
+<h4 id="entry-difference-and-mhcii-binding-correlations"><a href="htmls/corr_chart.html">Entry difference and MHCII binding correlations</a></h4>
