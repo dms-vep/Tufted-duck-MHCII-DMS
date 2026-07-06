@@ -14,8 +14,10 @@ In the interactive chart below, the line plot shows the total effects of mutatio
 
 The heatmap shows the effects of individual mutations: positive values (blue) indicate mutations increase binding (as assessed by increased HA neutralization of pseudovirus) and negative values (orange) indicate mutations decrease binding.
 Light gray in the heatmap means a mutation was not measured, and dark gray means the mutation was so deleterious for MHC-II-mediated cell entry that it was not possible to reliably estimate its effect on HA binding.
-The `x` for each site indicates the wildtype amino acid in the tufted duck MHC-II. Note that the numbering in these plots refers to sites in tufted duck MHC-II ectodomain (with `(a)` indicating alpha chain and `(b)` indicating beta chain ectodomain numbering. Note that these site numbers are not equivalent to homologous site numbers in human MHC-II)
-Mouse over mutations on the heatmap for details.
+The `x` for each site indicates the wildtype amino acid in the tufted duck MHC-II.
+Mouse over mutations for details.
+
+Note that the numbering in these plots refers to sites in tufted duck MHC-II ectodomain (with `(a)` indicating alpha chain and `(b)` indicating beta chain ectodomain numbering. Note that these site numbers are not equivalent to homologous site numbers in human MHC-II).
 
 Below the chart are interactive options to adjust parameters on the chart.
 Click the box in the upper right to expand the chart to full page.
@@ -27,7 +29,7 @@ Click the box in the upper right to expand the chart to full page.
 Additional relevant links:
 
  - [standalone link to the chart shown above](htmls/H5_HA_binding_mut_effect.html){target="_self"}
- - [chart showing effects of mutations in tufted duck MHC-II on entry in H5 HA expressing cells](htmls/entry_all_cells_overlaid.html){target="_self"}
+ - [chart showing effects of mutations in tufted duck MHC-II on both HA binding and entry of inverse pseudoviruses in H5 HA expressing cells](htmls/HA_binding_overlaid.html){target="_self"}
 
 ## MHC-II structure colored by mutation effects on HA binding
 
