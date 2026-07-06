@@ -1,0 +1,41 @@
+sample,concentration,use_in_fit,n_substitutions,n_variants,censored,probability escape
+Lib2-260529-H5_16.12,16.12,False,0,14985,"censored to [0, 1]",0.4377
+Lib2-260529-H5_16.12,16.12,False,1,50665,"censored to [0, 1]",0.4457
+Lib2-260529-H5_16.12,16.12,False,2,13593,"censored to [0, 1]",0.4534
+Lib2-260529-H5_16.12,16.12,False,>2,1891,"censored to [0, 1]",0.4454
+Lib2-260529-H5_201.45,201.4,True,0,14985,"censored to [0, 1]",0.1201
+Lib2-260529-H5_201.45,201.4,True,1,50665,"censored to [0, 1]",0.1196
+Lib2-260529-H5_201.45,201.4,True,2,13593,"censored to [0, 1]",0.1196
+Lib2-260529-H5_201.45,201.4,True,>2,1891,"censored to [0, 1]",0.1159
+Lib2-260529-H5_32.2,32.2,True,0,14985,"censored to [0, 1]",0.7177
+Lib2-260529-H5_32.2,32.2,True,1,50665,"censored to [0, 1]",0.7273
+Lib2-260529-H5_32.2,32.2,True,2,13593,"censored to [0, 1]",0.735
+Lib2-260529-H5_32.2,32.2,True,>2,1891,"censored to [0, 1]",0.7334
+Lib2-260529-H5_8.0,8,True,0,14985,"censored to [0, 1]",0.7066
+Lib2-260529-H5_8.0,8,True,1,50665,"censored to [0, 1]",0.7164
+Lib2-260529-H5_8.0,8,True,2,13593,"censored to [0, 1]",0.7228
+Lib2-260529-H5_8.0,8,True,>2,1891,"censored to [0, 1]",0.7158
+Lib2-260529-H5_80.58,80.58,True,0,14985,"censored to [0, 1]",0.5323
+Lib2-260529-H5_80.58,80.58,True,1,50665,"censored to [0, 1]",0.5445
+Lib2-260529-H5_80.58,80.58,True,2,13593,"censored to [0, 1]",0.5529
+Lib2-260529-H5_80.58,80.58,True,>2,1891,"censored to [0, 1]",0.547
+Lib2-260529-H5_16.12,16.12,False,0,14985,not censored,0.4387
+Lib2-260529-H5_16.12,16.12,False,1,50665,not censored,0.4475
+Lib2-260529-H5_16.12,16.12,False,2,13593,not censored,0.4562
+Lib2-260529-H5_16.12,16.12,False,>2,1891,not censored,0.4481
+Lib2-260529-H5_201.45,201.4,True,0,14985,not censored,0.1201
+Lib2-260529-H5_201.45,201.4,True,1,50665,not censored,0.1196
+Lib2-260529-H5_201.45,201.4,True,2,13593,not censored,0.1196
+Lib2-260529-H5_201.45,201.4,True,>2,1891,not censored,0.1159
+Lib2-260529-H5_32.2,32.2,True,0,14985,not censored,0.7308
+Lib2-260529-H5_32.2,32.2,True,1,50665,not censored,0.7471
+Lib2-260529-H5_32.2,32.2,True,2,13593,not censored,0.7644
+Lib2-260529-H5_32.2,32.2,True,>2,1891,not censored,0.7695
+Lib2-260529-H5_8.0,8,True,0,14985,not censored,0.7177
+Lib2-260529-H5_8.0,8,True,1,50665,not censored,0.7311
+Lib2-260529-H5_8.0,8,True,2,13593,not censored,0.7446
+Lib2-260529-H5_8.0,8,True,>2,1891,not censored,0.7408
+Lib2-260529-H5_80.58,80.58,True,0,14985,not censored,0.5334
+Lib2-260529-H5_80.58,80.58,True,1,50665,not censored,0.5472
+Lib2-260529-H5_80.58,80.58,True,2,13593,not censored,0.5571
+Lib2-260529-H5_80.58,80.58,True,>2,1891,not censored,0.5515
