@@ -1,0 +1,182 @@
+LOCUS       MHCII_opt4_pGGA_        3877 bp    DNA     circular SYN 21-FEB-2026
+DEFINITION  Made by Brendan Larsen. This is the pGGA shuttle vector (#4799), 
+            except the Chloramphenicol resistance has been replaced with 
+            Ampicillin Resistance (AmpR).
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 3877)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jul 10, 2026 from SnapGene 8.0.1
+            https://www.snapgene.com
+COMMENT     Annotated with pLannotate v1.2.0.
+FEATURES             Location/Qualifiers
+     source          1..3877
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     source          1127..2574
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     source          1190..1196
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     source          1275..1281
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     rep_origin      1..589
+     promoter        1019..1037
+                     /standard_name="SP6 promoter"
+                     /label=SP6 promoter
+                     /note="pLannotate"
+     misc_feature    1095..1126
+                     /label=f1
+     CDS             1127..2574
+                     /codon_start=1
+                     /label=MHCII
+                     /translation="MAAGRGVPLVLLALLALQGSGGDGCESGTCADADRVLPEHGNHDE
+                     KI**TSRAREPSPLLR*QFSARTPWNWEILTS*SATLISSGLASSPSHG*KTARR*PKE
+                     CPKPCSTDRPTTASISLATYHSSPPEATTTIAEWNTGACLNP**RTGSRKCHCPCLRAP
+                     KLWSAPWALPWASWGSWLAPS*SSRP*R*TTPETREACWEAARAGAAC*PAAMWRKTPA
+                     LWALAESWVLAPCWSPWSCSAPVWPAEKKQRAFSRRWWLLSATT*TEPSRCGTW*STST
+                     TGSRTCTTTATWVIMWPIQSWANLMPTTGTANLRKKNG*EPRSTQCADTITSWPASPWT
+                     DGSSPRCGCPLCRAPPCHRQIDWLVT*PAFILLISR*SGSRTARRKPSTW*APT*SKMA
+                     IGPTRCW*CWKAHLNTATPTSVTCSTPLSRALSPTSGCCLPTPLEARC*QALAAWCWD*
+                     SFWHWDCSCTCGERALACTDCRAP"
+     misc_feature    1127..1189
+                     /label=SP
+     misc_feature    complement(1191..1196)
+                     /direction=LEFT
+                     /standard_name="BsmBI"
+                     /label=nonstandard type: motif
+     misc_feature    1197..1785
+                     /label=Feature 20
+     misc_feature    1197..1274
+                     /label=f1
+                     /label=nonstandard type: barcode
+     misc_feature    1275..1280
+                     /standard_name="BsmBI"
+                     /label=nonstandard type: motif
+     misc_feature    1282..1533
+                     /label=f2
+                     /label=nonstandard type: barcode
+     misc_feature    1534..1785
+                     /label=f3
+                     /label=nonstandard type: barcode
+     misc_feature    1618..1686
+                     /label=TM
+     CDS             1741..1794
+                     /codon_start=1
+                     /product="2A peptide from Thosea asigna virus capsid 
+                     protein"
+                     /label=T2A
+                     /note="Eukaryotic ribosomes fail to insert a peptide bond 
+                     between the Gly and Pro residues, yielding separate 
+                     polypeptides."
+                     /translation="EGRGSLLTCGDVEENPGP"
+     misc_feature    1795..1869
+                     /label=SP
+     misc_feature    1816..2571
+                     /label=Feature 21
+     misc_feature    1816..2067
+                     /label=f4
+                     /label=nonstandard type: barcode
+     misc_feature    2068..2319
+                     /label=f5
+                     /label=nonstandard type: barcode
+     misc_feature    2320..2571
+                     /label=f6
+                     /label=nonstandard type: barcode
+     misc_feature    2464..2532
+                     /label=TM
+     misc_feature    2577..2584
+                     /locus_tag="AscI"
+                     /label=AscI
+     misc_feature    2595..2627
+                     /locus_tag="IlluminaPrimerSite"
+                     /label=IlluminaPrimerSite
+     misc_feature    complement(2628..2631)
+                     /direction=LEFT
+                     /standard_name="CCAT"
+                     /label=nonstandard type: overhang
+     intron          complement(2696..2712)
+                     /standard_name="CMV intron (fragment)"
+                     /label=CMV intron (fragment)
+                     /note="pLannotate"
+     promoter        2832..2936
+                     /standard_name="AmpR promoter"
+                     /label=AmpR promoter
+                     /note="pLannotate"
+     CDS             2937..3797
+                     /standard_name="AmpR"
+                     /label=AmpR
+                     /note="pLannotate"
+ORIGIN
+        1 ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa acaaaaaaac caccgctacc
+       61 agcggtggtt tgtttgccgg atcaagagct accaactctt tttccgaagg taactggctt
+      121 cagcagagcg cagataccaa atactgttct tctagtgtag ccgtagttag gccaccactt
+      181 caagaactct gtagcaccgc ctacatacct cgctctgcta atcctgttac cagtggctgc
+      241 tgccagtggc gataagtcgt gtcttaccgg gttggactca agacgatagt taccggataa
+      301 ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag cccagcttgg agcgaacgac
+      361 ctacaccgaa ctgagatacc tacagcgtga gctatgagaa agcgccacgc ttcccgaagg
+      421 gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga acaggagagc gcacgaggga
+      481 gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc gggtttcgcc acctctgact
+      541 tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc ctatggaaaa acgccagcaa
+      601 tgcggccttt ttacggttcc tggccttttg ctggcctttt gctcacatgt tctttcctgc
+      661 gttatcccct gattctgtgg ataaccgtat taccgccttt gagtgagctg ataccgctcg
+      721 ccgcagccga acgaccgagc gcagcgagtc agtgagcgag gaagccgaaa aatcaataat
+      781 cagacaacaa gatgtgcgaa ctcgatattt tacacgactc tctttaccaa ttctgccccg
+      841 aattacactt aaaacgactc aacagcttaa cgttggcttg ccacgcatta cttgactgta
+      901 aaactctcac tcttaccgaa cttggccgta acctgccaac caaagcgaga acaaaacata
+      961 acatcaaacg aatcgaccga ttgttaggta atcgtcacct gcaggaaggt ttaaacgcat
+     1021 ttaggtgaca ctatagaagt gtgtatcgct cgagggatcc gaattcgaag tcttggtacg
+     1081 gagcgagacc ggagcagccg agccacatcg ctcaacgcgt gccaccatgg ccgccggcag
+     1141 aggcgtgcct ctggtgctcc tggccctgct ggccctgcag ggcagcggcg gagacggctg
+     1201 tgaaagtggg acatgtgctg atgcagaccg agttctacca gagcatggaa atcatgatga
+     1261 aaagatctaa tagacgtctc gagccaggga accatcgccc ctcctgaggt gacagttttc
+     1321 agcgaggacc ccgtggaact gggagatcct aacatcctga tctgctacgt tgataagttc
+     1381 tggcctagcg tcatcaccat cacatggatg aaaaacggcc aggaggtgac cgaaggagtg
+     1441 tccgaaaccg tgttctacag acaggccgac aacggcttct ataagtttag ctacttacca
+     1501 ttcatcccca ccagaggcga ctactacgat tgcagagtgg aacactgggg cctgcctgaa
+     1561 cccctgatga cgcactggga gccgcaagtg ccactgcccg tgtctgagag caccgaaact
+     1621 ctggtctgcg ccctgggcct tgccgtgggc atcgtgggga tcgtggttgg caccatcctg
+     1681 atcatcaagg ccatgaagat gaacaacgcc agaaaccaga gaggcctgct gggaagcggc
+     1741 gagggccggg gcagcctgct gacctgcggc gatgtggagg aaaaccccgg ccctatgggc
+     1801 tctggcagaa tcctgggtgc tggcgccgtg ctggtcgccc tggtcgtgct cggcgcccgt
+     1861 ctggccggcg gagaagaaac aaagggcttt ttccaggaga tggtggcttt tgagtgccac
+     1921 tacctgaacg gaaccgagca ggtgcggtac ctggtgaagt acatccacaa ccggcagcag
+     1981 gacgtgcact acgacagcga cgtgggtcat tatgtggccg atacagagct gggcaaacct
+     2041 gatgccgact actggaacag ccaacctgag gaaaaagaac gggtgagagc cgagatcgac
+     2101 acagtgtgca gacacaatta cttcatggcc agcttcaccg tggacagacg ggtcgagccc
+     2161 aaggtgcggg tgtcccctat gcagagctcc tccctgccac agacagatag actggcttgt
+     2221 tacgtgaccg gcttttatcc tgctgatatc caggtgaagt ggttcaagaa cggccaggag
+     2281 gaaaccaagc acgtggtgag caccgacgtg atccaaaatg gcgattggac ctaccaggtg
+     2341 ctggtgatgc tggaaagcac acctcaacac ggcgacacct acgagtgtca cgtgcagcac
+     2401 gcctctctca agagccctat cacctacgag tgggtgctgc ctgccgacgc cgctagaggc
+     2461 aagatgctga caggcgttgg cggcctggtg ctgggactga tctttctggc actgggactg
+     2521 ttcctgtacg tgcggagaaa gggcgctagc ctgcacagat tgcagggctc ctgataggcg
+     2581 cgcctagttg gatcacactc tttccctaca cgacgctctt ccgatctcca tggtctcacc
+     2641 attcctgtag acttcttaat taagacgtca gaattctcga ggcggccgca tgtgagtctc
+     2701 cctatagtga gtatggcagt ctagatcatt cttgaagacg aaagggcctc gtgatacgcc
+     2761 tatttttata ggttaatgtc atgataataa tggtttctta gacgtcaggt ggcacttttc
+     2821 ggggaaatgt gcgcggaacc cctatttgtt tatttttcta aatacattca aatatgtatc
+     2881 cgctcatgag acaataaccc tgataaatgc ttcaataata ttgaaaaagg aagagtatga
+     2941 gtattcaaca tttccgtgtc gcccttattc ccttttttgc ggcattttgc cttcctgttt
+     3001 ttgctcaccc agaaacgctg gtgaaagtaa aagatgctga agatcagttg ggtgcacgag
+     3061 tgggttacat cgaactggat ctcaacagcg gtaagatcct tgagagtttt cgccccgaag
+     3121 aacgttttcc aatgatgagc acttttaaag ttctgctatg tggcgcggta ttatcccgta
+     3181 ttgacgccgg gcaagagcaa ctcggtcgcc gcatacacta ttctcagaat gacttggttg
+     3241 agtactcacc agtcacagaa aagcatctta cggatggcat gacagtaaga gaattatgca
+     3301 gtgctgccat aaccatgagt gataacactg cggccaactt acttctgaca acgatcggag
+     3361 gaccgaagga gctaaccgct tttttgcaca acatggggga tcatgtaact cgccttgatc
+     3421 gttgggaacc ggagctgaat gaagccatac caaacgacga gcgtgacacc acgatgcctg
+     3481 tagcaatggc aacaacgttg cgcaaactat taactggcga actacttact ctagcttccc
+     3541 ggcaacaatt aatagactgg atggaggcgg ataaagttgc aggaccactt ctgcgctcgg
+     3601 cccttccggc tggctggttt attgctgata aatctggagc cggtgagcgt gggtctcgcg
+     3661 gtatcattgc agcactgggg ccagatggta agccctcccg tatcgtagtt atctacacga
+     3721 cggggagtca ggcaactatg gatgaacgaa atagacagat cgctgagata ggtgcctcac
+     3781 tgattaagca ttggtaactg tcagaccaag taatccctta acgtgagttt tcgttccact
+     3841 gagcgtcaga ccccgtagaa aagatcaaag gatcttc
+//

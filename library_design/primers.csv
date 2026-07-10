@@ -1,0 +1,15 @@
+﻿Primer_name,Sequence (5' - 3'),,decription
+TD_MHCII_Pool1_Fwd,CCAGGCAGCATGTTGTAGTG,,tile 1 amplification
+TD_MHCII_Pool1_Rev,CTGATTCCATCGGCTCGTAC,,tile 1 amplification
+TD_MHCII_Pool2_Fwd,TGGAGAGACTACGCACTGAC,,tile 2 amplification
+TD_MHCII_Pool2_Rev,GACCATCTCGTACACTGTGC,,tile 2 amplification
+TD_MHCII_Pool3_Fwd,TCAAGCACTGCACTCAAGTC,,tile 3 amplification
+TD_MHCII_Pool3_Rev,CATGGTAGTGACGAGTGAGG,,tile 3 amplification
+TD_MHCII_Pool4_Fwd,TCATCCATCCAGTACGCCAG,,tile 4 amplification
+TD_MHCII_Pool4_Rev,GTTACCGACGTATGCTGCTG,,tile 4 amplification
+TD_MHCII_Pool5_Fwd,CGAGTCCAGTTACGGAGATG,,tile 5 amplification
+TD_MHCII_Pool5_Rev,CATGGATGGACGCAAGACAG,,tile 5 amplification
+TD_MHCII_Pool6_Fwd,AGGTTAGACAGGCTGACGTG,,tile 6 amplification
+TD_MHCII_Pool6_Rev,GCAGTTGAGGTGATGACAGC,,tile 6 amplification
+ForInd_AddBC_2,gcggaactccactaggaacatttctctctcgaaTCTAGANNNNNNNNNNNNNNNNAGATCGGAAGAGCGTCGTGTAGGGAAAGAG,,MHC-II amplification and barcoding
+5'for_lib_bcing,gcacgcgCAGCCGAGCCACATCGCTCA,,MHC-II amplification and barcoding
