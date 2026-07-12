@@ -9,9 +9,6 @@ features:
   - title: Binding to H5 HA
     details: Effects of tufted duck MHC-II mutations on binding to H5 HA
     link: /binding
-  - title: Structural model of MHC-II bound to HA
-    details: Cryo-EM based model of H5 HA bound to tufted duck MHC-II
-    link: /structural_model
   - title: Effects of H5 HA mutations on MHC-II interaction
     details: Deep mutational scanning of how mutations to H5 HA affect its interaction with tufted duck MHC-II
     link: https://dms-vep.org/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/
@@ -25,7 +22,6 @@ For details about the study, see [Dadonaite et al. (2026)]() [**ADD CITATION**].
 
 Visualizations and data can be accessed by clicking the gray boxes above for each measurement, namely:
  - [Effects of tufted duck mutations on binding to H5 HA](binding)
- - [Structural model of tufted duck MHC-II bound to H5 HA](structural_model)
  - [Effects of H5 HA mutations on MHC-II interaction](https://dms-vep.org/Flu-H5N1-American-Wigeon-2021-HA-tufted-duck-MHCII-DMS/)
 
 For numerical values of the effects of tufted duck MHC-II mutations on interaction with HA, see [this CSV](https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/summaries/HA_binding.csv).
