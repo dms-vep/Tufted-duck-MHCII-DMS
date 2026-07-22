@@ -1,0 +1,207 @@
+<h1 id="deep-mutational-scanning-of-tufted-duck-mhcii">Deep mutational scanning of tufted duck MHCII</h1>
+<p>Analysis by <a href="https://doi.org/10.64898/2026.07.17.738765">Dadonaite et al</a> (2026)</p>
+<p>See <a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS">https://github.com/dms-vep/Tufted-duck-MHCII-DMS</a> for full code.</p>
+<p>Documentation of results rendered as of Wed Jul 22 15:02:54 2026</p>
+<div class="toc"><span class="toctitle">Contents</span><ul>
+<li><a href="#barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</a></li>
+<li><a href="#count-barcodes-for-variants">Count barcodes for variants</a></li>
+<li><a href="#functional-effects-of-mutations">Functional effects of mutations</a></li>
+<li><a href="#ha-binding">HA binding</a></li>
+<li><a href="#integrated-summary-plots">Integrated summary plots</a></li>
+<li><a href="#additional-plots">Additional plots</a></li>
+<li><a href="#row-wrapped-heatmaps">Row-wrapped heatmaps</a></li>
+</ul>
+</div>
+<h2 id="barcode-to-codon-variant-lookup-table">Barcode to codon-variant lookup table</h2>
+<h4 id="analysis-notebooks">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_pacbio_ccs.html">Analysis of PacBio CCSs</a></li>
+<li><a href="notebooks/build_pacbio_consensus.html">Building barcoded variant consensus sequences</a></li>
+<li><a href="notebooks/build_codon_variants.html">Building of codon-variant table</a></li>
+</ul>
+<h4 id="data-files">Data files</h4>
+<ul>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/gene_sequence/codon.fasta">parental codon sequence</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/gene_sequence/protein.fasta">parental protein sequence</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/variants/codon_variants.csv">barcode to codon-variant lookup table</a></li>
+</ul>
+<h2 id="count-barcodes-for-variants">Count barcodes for variants</h2>
+<h4 id="analysis-notebooks_1">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_variant_counts.html">Analysis of variant counts</a></li>
+</ul>
+<h4 id="data-files_1">Data files</h4>
+<ul>
+<li><details><summary>Barcode count CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib1-260529-H5_8.0_counts.csv">Lib1-260529-H5_8.0</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib1-260529-H5_16.12_counts.csv">Lib1-260529-H5_16.12</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib1-260529-H5_32.2_counts.csv">Lib1-260529-H5_32.2</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib1-260529-H5_80.58_counts.csv">Lib1-260529-H5_80.58</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib1-260529-H5_201.45_counts.csv">Lib1-260529-H5_201.45</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib1-260529-noMab_counts.csv">Lib1-260529-noMab</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib1-260529-VSVG_RT_counts.csv">Lib1-260529-VSVG_RT</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib1-260529-VSVG_counts.csv">Lib1-260529-VSVG</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib2-260529-H5_8.0_counts.csv">Lib2-260529-H5_8.0</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib2-260529-H5_16.12_counts.csv">Lib2-260529-H5_16.12</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib2-260529-H5_32.2_counts.csv">Lib2-260529-H5_32.2</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib2-260529-H5_80.58_counts.csv">Lib2-260529-H5_80.58</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib2-260529-H5_201.45_counts.csv">Lib2-260529-H5_201.45</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib2-260529-noMab_counts.csv">Lib2-260529-noMab</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib2-260529-VSVG_RT_counts.csv">Lib2-260529-VSVG_RT</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/barcode_counts/Lib2-260529-VSVG_counts.csv">Lib2-260529-VSVG</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="functional-effects-of-mutations">Functional effects of mutations</h2>
+<h4 id="final-summary-plots">Final summary plots</h4>
+<ul>
+<li><details><summary>Interactive plots of average mutation functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/293_M3_tat_H5_infection_func_effects.html">293_M3_tat_H5_infection</a></li>
+<li><a href="htmls/293_M3_tat_H5_RT_func_effects.html">293_M3_tat_H5_RT</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Interactive plots of average mutation functional effects from single-mutant variants only (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/293_M3_tat_H5_infection_func_effects_singlemut.html">293_M3_tat_H5_infection</a></li>
+<li><a href="htmls/293_M3_tat_H5_RT_func_effects_singlemut.html">293_M3_tat_H5_RT</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="analysis-notebooks_2">Analysis notebooks</h4>
+<ul>
+<li><a href="notebooks/analyze_func_scores.html">Analysis of functional scores</a></li>
+<li><details><summary>Notebooks with per-selection global epistasis fitting (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/func_effects_global_epistasis_Lib1-260529-infection.html">Lib1-260529-infection</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_Lib2-260529-infection.html">Lib2-260529-infection</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_Lib1-260529-RT.html">Lib1-260529-RT</a></li>
+<li><a href="notebooks/func_effects_global_epistasis_Lib2-260529-RT.html">Lib2-260529-RT</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Notebooks averaging mutation functional effects (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_func_effects_293_M3_tat_H5_infection.html">293_M3_tat_H5_infection</a></li>
+<li><a href="notebooks/avg_func_effects_293_M3_tat_H5_RT.html">293_M3_tat_H5_RT</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="data-files_2">Data files</h4>
+<ul>
+<li><details><summary>Per-variant functional score CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_scores/Lib1-260529-infection_func_scores.csv">Lib1-260529-infection</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_scores/Lib2-260529-infection_func_scores.csv">Lib2-260529-infection</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_scores/Lib1-260529-RT_func_scores.csv">Lib1-260529-RT</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_scores/Lib2-260529-RT_func_scores.csv">Lib2-260529-RT</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Per-selection mutation functional effect CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_effects/by_selection/Lib1-260529-infection_func_effects.csv">Lib1-260529-infection</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_effects/by_selection/Lib2-260529-infection_func_effects.csv">Lib2-260529-infection</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_effects/by_selection/Lib1-260529-RT_func_effects.csv">Lib1-260529-RT</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_effects/by_selection/Lib2-260529-RT_func_effects.csv">Lib2-260529-RT</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation functional effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_effects/averages/293_M3_tat_H5_infection_func_effects.csv">293_M3_tat_H5_infection</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_effects/averages/293_M3_tat_H5_RT_func_effects.csv">293_M3_tat_H5_RT</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation functional effects from single-mutant variants only (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_effects/averages/293_M3_tat_H5_infection_func_effects_singlemut.csv">293_M3_tat_H5_infection</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_effects/averages/293_M3_tat_H5_RT_func_effects_singlemut.csv">293_M3_tat_H5_RT</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average mutation latent-phenotype effects (CSV files) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_effects/averages/293_M3_tat_H5_infection_func_effects.csv">293_M3_tat_H5_infection</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/func_effects/averages/293_M3_tat_H5_RT_func_effects.csv">293_M3_tat_H5_RT</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="ha-binding">HA binding</h2>
+<h4 id="final-summary-plots_1">Final summary plots</h4>
+<ul>
+<li><details><summary>HA binding mutation effect plots (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="htmls/H5_HA_binding_mut_effect.html">H5_HA_binding</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="analysis-notebooks_3">Analysis notebooks</h4>
+<ul>
+<li><details><summary>Fits of polyclonal models to individual HA binding selections (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/fit_escape_HA_binding_Lib1-260529-HA_binding.html">Lib1-260529-HA_binding</a></li>
+<li><a href="notebooks/fit_escape_HA_binding_Lib2-260529-HA_binding.html">Lib2-260529-HA_binding</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>Average selections for HA binding (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="notebooks/avg_escape_HA_binding_H5_HA_binding.html">H5_HA_binding</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h4 id="data-files_3">Data files</h4>
+<ul>
+<li><details><summary>Probability (fraction) escape for each variant in each HA binding selection (CSVs) (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/by_selection/Lib1-260529-HA_binding/Lib1-260529-H5_8.0_prob_escape.csv">Lib1-260529-HA_binding Lib1-260529-H5_8.0</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/by_selection/Lib1-260529-HA_binding/Lib1-260529-H5_16.12_prob_escape.csv">Lib1-260529-HA_binding Lib1-260529-H5_16.12</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/by_selection/Lib1-260529-HA_binding/Lib1-260529-H5_32.2_prob_escape.csv">Lib1-260529-HA_binding Lib1-260529-H5_32.2</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/by_selection/Lib1-260529-HA_binding/Lib1-260529-H5_80.58_prob_escape.csv">Lib1-260529-HA_binding Lib1-260529-H5_80.58</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/by_selection/Lib1-260529-HA_binding/Lib1-260529-H5_201.45_prob_escape.csv">Lib1-260529-HA_binding Lib1-260529-H5_201.45</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/by_selection/Lib2-260529-HA_binding/Lib2-260529-H5_8.0_prob_escape.csv">Lib2-260529-HA_binding Lib2-260529-H5_8.0</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/by_selection/Lib2-260529-HA_binding/Lib2-260529-H5_16.12_prob_escape.csv">Lib2-260529-HA_binding Lib2-260529-H5_16.12</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/by_selection/Lib2-260529-HA_binding/Lib2-260529-H5_32.2_prob_escape.csv">Lib2-260529-HA_binding Lib2-260529-H5_32.2</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/by_selection/Lib2-260529-HA_binding/Lib2-260529-H5_80.58_prob_escape.csv">Lib2-260529-HA_binding Lib2-260529-H5_80.58</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/by_selection/Lib2-260529-HA_binding/Lib2-260529-H5_201.45_prob_escape.csv">Lib2-260529-HA_binding Lib2-260529-H5_201.45</a></li>
+</ul></details>
+
+</li>
+<li><details><summary>HA binding CSVs (click triangle to expand/collapse)</summary><ul>
+
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/HA_binding/averages/H5_HA_binding_mut_effect.csv">H5_HA_binding</a></li>
+</ul></details>
+
+</li>
+</ul>
+<h2 id="integrated-summary-plots">Integrated summary plots</h2>
+<h4 id="entry-all-cells">entry all cells</h4>
+<ul>
+<li><a href="htmls/entry_all_cells_overlaid.html">Summary plot</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/summaries/entry_all_cells.csv">CSV summarizing results</a></li>
+</ul>
+<h4 id="ha-binding_1">HA binding</h4>
+<ul>
+<li><a href="htmls/HA_binding_overlaid.html">Summary plot (escape overlaid)</a></li>
+<li><a href="htmls/HA_binding_faceted.html">Summary plot (escape faceted)</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/summaries/HA_binding.csv">CSV summarizing results</a></li>
+<li><a href="https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/summaries/HA_binding_per_antibody_escape.csv">CSV summarizing per-antibody results</a></li>
+</ul>
+<h2 id="additional-plots">Additional plots</h2>
+<h4 id="correlation-between-binding-and-entry"><a href="htmls/corr_chart.html">Correlation between binding and entry</a></h4>
+<h2 id="row-wrapped-heatmaps">Row-wrapped heatmaps</h2>
+<h4 id="heatmap-htmls">Heatmap HTMLs</h4>
+<ul>
+<li><a href="htmls/entry_in_293T_H5_HA_cells_wrapped_heatmap.html">entry_in_293T_H5_HA_cells</a></li>
+<li><a href="htmls/tufted-duck_MHCII-binding_wrapped_heatmap.html">tufted-duck_MHCII-binding</a></li>
+</ul>
