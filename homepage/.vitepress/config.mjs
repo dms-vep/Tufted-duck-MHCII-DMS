@@ -16,7 +16,7 @@ export default defineConfig({
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/dms-vep/Tufted-duck-MHCII-DMS" }],
     footer: {
-      message: "Copyright © 2026-present Bernadeta Dadonaite and Jesse Bloom",
+      message: 'See <a href="https://doi.org/10.64898/2026.07.17.738765">Dadonaite et al (2026)</a> for study details.',
     },
   },
 });

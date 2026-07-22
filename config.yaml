@@ -26,7 +26,7 @@ github_blob_url: https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master
 # Some descriptions and metadata about the analysis.
 description: Deep mutational scanning of tufted duck MHCII 
 year: 2026
-authors: "Bernadeta Dadonaite and Jesse Bloom"
+authors: "[Dadonaite et al](https://doi.org/10.64898/2026.07.17.738765)"
 
 # ----------------------------------------------------------------------------
 # Site numbering, mutation classification, and neut standards

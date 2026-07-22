@@ -18,7 +18,7 @@ features:
 
 This website provides interactive visualizations and links to numerical data from pseudovirus deep mutational scanning measuring how mutations to a tufted duck MHC-II affect its interaction with H5 HA. The tufted duck MHC-II used in these experiments has  Genbank accession numbers `XP_032061117.1` and `XP_032061025.1` for alpha and beta chains, respectively. The H5 HA used in these experiments comes from A/American Wigeon/South Carolina/USDA-000345-001/2021 (H5N1) strain.
 
-For details about the study, see [Dadonaite et al. (2026)]() [**ADD CITATION**].
+For details about the study, see [Dadonaite et al. (2026)](https://doi.org/10.64898/2026.07.17.738765).
 
 Visualizations and data can be accessed by clicking the gray boxes above for each measurement, namely:
  - [Effects of tufted duck mutations on binding to H5 HA](binding)
@@ -30,7 +30,7 @@ For the full computer code and all numerical data files, see [the GitHub reposit
 For full documentation of the computational pipeline, see the [Appendix](appendix.html){target="_self"}.
 
 ## Inverted pseudotyping
-Note that these measurements are made using inverted pseudotyping of lentiviral particles, as described in [Dadonaite et al. (2026)]() [**ADD CITATION**].
+Note that these measurements are made using inverted pseudotyping of lentiviral particles, as described in [Dadonaite et al. (2026)](https://doi.org/10.64898/2026.07.17.738765).
 
 The [numerical results]((https://github.com/dms-vep/Tufted-duck-MHCII-DMS/blob/master/results/summaries/HA_binding.csv) therefore include both the effects of MHC-II mutations on H5 HA binding (what you are likely interested in) as well as on inverted pseudovirus entry (this is a proxy for MHC-II folding, with mutations have negative cell entry effects if they greatly decrease cell entry).
 
@@ -42,4 +42,4 @@ The numbering used here is 1, 2, ... numbering of the **ectodomains** (see [here
 These experiments use lentiviral particles that inverse pseudotyped with MHC-II.
 These lentiviral particles encode no viral proteins, and therefore are not pathogens capable of causing disease.
 
-See the biosafety statement in [Dadonaite et al. (2026)]() [**ADD CITATION**] for more details.
+See the biosafety statement in [Dadonaite et al. (2026)](https://doi.org/10.64898/2026.07.17.738765) for more details.

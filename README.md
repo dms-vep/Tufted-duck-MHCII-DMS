@@ -1,5 +1,7 @@
 # Deep mutational scanning of tufted duck MHC-II for mutation effects on H5 HA binding
 
+See [Dadonaite et al (2026)](https://doi.org/10.64898/2026.07.17.738765) for details on this study.
+
 This repository has the code and data for analysis of tufted duck MHC-II deep mutational scanning, including how mutations affect binding to a H5 HA. The tufted duck MHC-II sequence used comed from Genscript accessions XP_032061117.1 and XP_032061025.1 for alpha and beta chain, respectively.
 
 For rendering of key results and an easy-to-interpret summary, see the documentation of the analysis at [https://dms-vep.org/Tufted-duck-MHCII-DMS/](https://dms-vep.org/Tufted-duck-MHCII-DMS/).
