@@ -33,7 +33,7 @@ Additional relevant links:
 
 ## MHC-II structure colored by mutation effects on HA binding
 
-Below is a structure of tufted duck MHC-II colored by the total effect of all mutations at each site on H5 HA binding. A peptide has been modeled in from a different structure (`PDB:8JRJ`) for visual orientation purposes is shown in green.
+Below is a structure of tufted duck MHC-II colored by the total effect of all mutations at each site on H5 HA binding. A peptide has been modeled in from a different structure (`PDB:1AQD`) for visual orientation purposes is shown in green.
 Red indicates sites where most mutations decrease HA binding and blue indicates sites where most mutations increase HA binding
 
 <video autoplay muted loop playsinline width="100%" style="display: block;">
